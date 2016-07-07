@@ -1,0 +1,289 @@
+[ 2016-07-01T10:44:32+08:00 ] ::1 /project/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013841s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008825s ]
+
+[ 2016-07-01T10:44:33+08:00 ] ::1 /project/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-07-01T10:44:34+08:00 ] ::1 /project/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.1156s ]
+SQL: SELECT * FROM `industry` WHERE `valid` = 1 ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `industry` WHERE `valid` = 1 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-07-01T10:46:05+08:00 ] ::1 /project/index.php/Admin/Index/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0013s ]
+SQL: UPDATE `industry` SET `name`='111111' WHERE `id` = 1 [ RunTime:0.0807s ]
+
+[ 2016-07-01T10:46:05+08:00 ] ::1 /project/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `industry` WHERE `valid` = 1 ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `industry` WHERE `valid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-07-01T10:46:11+08:00 ] ::1 /project/index.php/Admin/Index/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\web\project\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0011s ]
+SQL: UPDATE `industry` SET `file`='/upload/hangye/2/2016-07-01/1467341171_758800688.png' WHERE `id` = 2 [ RunTime:0.0426s ]
+
+[ 2016-07-01T12:07:09+08:00 ] ::1 /project/index.php/Admin/Index/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018433s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0251s ]
+SQL: UPDATE `industry` SET `name`='xiaci  问问问房东的' WHERE `id` = 8 [ RunTime:0.1837s ]
+
+[ 2016-07-01T12:07:09+08:00 ] ::1 /project/index.php/Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0756s ]
+SQL: SELECT * FROM `industry` WHERE `valid` = 1 ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `industry` WHERE `valid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002846s ]
+
+[ 2016-07-01T14:43:09+08:00 ] ::1 /project/index.php/Admin/Index/right/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008214s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0969s ]
+SQL: SELECT * FROM `industry` WHERE `valid` = 1 ORDER BY at_time desc LIMIT 10,10   [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `industry` WHERE `valid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008067s ]
+
+[ 2016-07-01T16:14:43+08:00 ] ::1 /project/index.php/Admin/Company/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011526s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.1066s ]
+SQL: SELECT * FROM `company` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0612s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1   [ RunTime:0.0182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0184s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0097s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008367s ]
+
+[ 2016-07-01T16:14:44+08:00 ] ::1 /project/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `student` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-07-01T16:14:45+08:00 ] ::1 /project/index.php/Admin/Judge/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `judge_questions` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `judge_questions` ORDER BY orders asc LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `judge_questions` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-07-01T16:14:47+08:00 ] ::1 /project/index.php/Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `student` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `student` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-07-01T16:14:48+08:00 ] ::1 /project/index.php/Admin/Judge/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `judge_questions` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `judge_questions` ORDER BY orders asc LIMIT 0,10   [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `judge_questions` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+

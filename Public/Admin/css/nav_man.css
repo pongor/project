@@ -1,0 +1,89 @@
+/*nav 前缀为 nav--->*/
+
+
+.navBox{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	width: 100%; 
+	max-width: 336px; 
+	min-width: 215px; 
+	height: 100%;
+	background-color: #3652a6;
+}
+.navHead{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: #79a7ff;
+	text-align: center;
+}
+.navLogo{
+	position: relative;
+	padding-top: 15px;
+	width: 184px;
+	height: auto;
+}
+.nav{
+	width: 100%;
+	height: auto;
+}
+.nav ul, .nav li, .nav a{
+	width: 100%;
+}
+.navMain{
+	height: 61px;
+	border-bottom: 1px solid #363180;
+}
+.navMain a{
+	display: block;
+	line-height: 61px;
+	padding-left: 10px;
+    box-sizing: border-box;
+	height: 61px;
+}
+.navMain span{
+	position: relative;
+	left: 5%;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.navIcon{
+	position: relative;
+	left: 5%;
+	bottom: -1px;
+	width: 14px;
+}
+.navArrowRight{
+	float: right;
+    width: auto;
+    height: 10px;
+    padding: 25px 20px 25px 20px;
+}
+.navArrowDown{
+	float: right;
+    width: auto;
+    height: 6px;
+    padding: 28px 20px 27px 20px;
+}
+.navSubBox{
+	display: none;
+}
+.navSubBox li{
+	height: 28px;
+	line-height: 28px;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding-left: 21.2%;
+	box-sizing: border-box;
+}
+.navSelected{
+	background-color: #b3cfff;
+}
+.navOption:hover, .navMain:hover{
+	background-color: #5682cf;
+}
+
+
+/*<---nav*/
