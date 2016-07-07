@@ -26,7 +26,7 @@ class LoginController extends Controller
 
         if(!$code) return ;
         $appid = C('appid');
-        $secret = C('secret');
+        $secret = C('APPSECRET');
         $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$appid}&secret={$secret}&code=CODE&grant_type=authorization_code ";
         $result = file_get_contents($url);
         $data = json_decode($result,true);
