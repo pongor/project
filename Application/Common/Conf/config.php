@@ -1,6 +1,6 @@
 <?php
 return array(
-   // 'URL_MODEL'          => 2, //URL模式
+   'URL_MODEL'          => 2, //URL模式
 //    'SESSION_AUTO_START' => true, //是否开启session
    // 'MODULE_ALLOW_LIST'    =>    array('Home','Admin'),
    // 'DEFAULT_MODULE'       =>    'Home',
