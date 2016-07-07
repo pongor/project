@@ -22,9 +22,21 @@ class LoginController extends Controller
         redirect($url);die;
     }
     public function check(){
-        dump($_GET);
-        dump($_POST);
-        dump($_REQUEST);
+        $code = I('get.code');
+        if(!$code) return ;
+        $appid = C('appid');
+        $secret = C('secret');
+        $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$appid}&secret={$secret}&code=CODE&grant_type=authorization_code ";
+        $result = file_get_contents($url);
+        $data = json_decode($result,true);
+
+        if(isset($data['errcode'])) {
+            return ;
+        }
+        $user_Url = "https://api.weixin.qq.com/sns/userinfo?access_token={$data['access_token']}&openid={$data['openid']}&lang=zh_CN"; //拉取用户详细信息
+        $user_Result = file_get_contents($user_Url);
+        $user_Data = json_decode($user_Result,true);
+        dump($user_Data);
     }
 
 }
