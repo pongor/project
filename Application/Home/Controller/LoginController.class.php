@@ -23,6 +23,7 @@ class LoginController extends Controller
     }
     public function check(){
         $code = I('get.code');
+        dump($_GET);
         if(!$code) return ;
         $appid = C('appid');
         $secret = C('secret');
