@@ -47,8 +47,8 @@
       <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="456">
+              <caret line="29" column="109" selection-start-line="29" selection-start-column="109" selection-end-line="29" selection-end-column="109" />
               <folding>
                 <element signature="e#116#140#0#PHP" expanded="true" />
               </folding>
@@ -275,12 +275,12 @@
       <workItem from="1467597889216" duration="11528000" />
       <workItem from="1467685988629" duration="9105000" />
       <workItem from="1467771930878" duration="15940000" />
-      <workItem from="1467855352311" duration="11498000" />
+      <workItem from="1467855352311" duration="11570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97790000" />
+    <option name="totallyTimeSpent" value="97862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -687,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="456">
+          <caret line="29" column="109" selection-start-line="29" selection-start-column="109" selection-end-line="29" selection-end-column="109" />
           <folding>
             <element signature="e#116#140#0#PHP" expanded="true" />
           </folding>
