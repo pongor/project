@@ -12,5 +12,6 @@ return array(
     /***********************************微信配置***********************************************/
     'APPSECRET' =>  '103e688b8013ae4e53ecb3b67ae81e33',
     'appid'     =>  'wxee8924b7550b4570',
-    'access_token'  => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential',
+    'access_token'  => 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential', //获取access
+    'login'          =>  'https://open.weixin.qq.com/connect/oauth2/authorize?', //用户登录
 );

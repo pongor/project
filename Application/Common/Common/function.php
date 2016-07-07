@@ -89,7 +89,4 @@ function get_access(){
             return false;
         }
     }
-
-
-
 }
