@@ -30,14 +30,44 @@ class LoginController extends Controller
         $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={$appid}&secret={$secret}&code={$code}&grant_type=authorization_code ";
         $result = file_get_contents($url);
         $data = json_decode($result,true);
-        dump($data);
         if(isset($data['errcode'])) {
             return ;
         }
         $user_Url = "https://api.weixin.qq.com/sns/userinfo?access_token={$data['access_token']}&openid={$data['openid']}&lang=zh_CN"; //拉取用户详细信息
         $user_Result = file_get_contents($user_Url);
         $user_Data = json_decode($user_Result,true);
-        dump($user_Data);
+       $user = [
+            'openid'    =>  $user_Data['openid'],
+           'nickname'   =>  $user_Data['nickname'],
+           'sex'        =>  $user_Data['sex'],
+           'city'       =>  $user_Data['city'],
+           'province'   =>  $user_Data['province'],
+           'country'    =>  $user_Data['country'],
+           'headimgurl' => $user_Data['headimgurl']
+       ];
+        $model = D('users');
+        $userInfo = $model->getInfo(array('openid'=>$user_Data['openid']));
+        if($userInfo){ //用户存在 更新用户信息
+            $user_id = $userInfo['id'];
+            $model->getUpdate(array('id' => $user_id));
+            session('user_id',$user_id,31536000);//设置session
+            session('code',1,31536000);//设置session
+            if($userInfo['status'] == 2){ //跳转到企业端
+                redirect(U('Backend/Index/index'));die;
+            }else{//其他跳转到学生端
+                redirect(U('Index/index'));die;
+            }
+        }else{ //新用户
+            $user_id = $model->getAdd($user);
+            session('user_id',$user_id,31536000);//设置session
+            //跳转到学生端。并输入验证码
+            redirect(U('Index/index'));die;
+        }
+
+    }
+    public function logout(){ //注销用户登录
+        session('user_id',null);
+        session('code',null);
     }
 
 }

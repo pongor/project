@@ -1,0 +1,120 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<nav class="nav">
+				<div class="bg_nav"></div>
+				<a href="offer_stu.html"><div class="tab_nav">
+					<img class="imgPractice_nav" src="__IMG__/icon-practice.png" />
+					<span class="text_nav">实习</span>
+				</div></a>
+				<a href="home_stu.html"><div class="tab_nav">
+					<div class="boxMy_nav"><img class="imgMy_nav" src="__IMG__/icon-head3.jpg" /></div>
+					<span class="boxMytext_nav textChecked_nav">我的</span>
+				</div></a>
+			</nav>
+			<!--页面内容-->
+			<section class="content">
+				<!--顶部提示栏-->
+				<div class="tiptop BGtiptop"><table><tr><td>
+					完善个人信息才能让企业看到你哦
+				</td></tr></table></div>
+				<!--页面主要内容-->
+				<div class="main">
+					<!--头部-->
+					<header class="header">
+						<!--公众号二维码链接-->
+						<div class="QRcodeBox_header">
+							<a href="QRcode.html"><div class="QRcode_header">
+								<img src="__IMG__/icon-QRcode.png" />
+								<span>独立说公号</span>
+							</div></a>
+						</div>
+						<!--头像-->
+						<div class="head_header"><img src="__IMG__/icon-head3.jpg" /></div>
+						<!--名字-->
+						<span class="name_header">刘水音</span>
+						<!--简介／描述-->
+						<p class="intro_header">40字以内描述一下自己是个什么样的高端人才<br/>让企业值得拥有你，知道自己的能力与目标很重要</p>
+						<!--tab-->
+						<div class="tabBar_header">
+							<div class="tab_header myInfo checkedTab_header">个人信息</div>
+							<div class="tab_header myResume">我的简历</div>
+						</div>
+					</header>
+					<!--内容-->
+					<section class="section">
+						<!--编辑信息-->
+						<div class="editInfo clearfix myInfo-block">
+							<!--姓名-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">姓名</span>
+								<input class="input_edit" name="name" />
+							</div>
+							<!--手机-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">手机</span>
+								<input class="input_edit" name="phone" type="tel" maxlength="11" />
+							</div>
+							<!--年级-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">年级</span>
+								<input class="input_edit" name="grade" />
+							</div>
+							<!--学校-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">学校</span>
+								<input class="input_edit" name="college" />
+							</div>
+							<!--专业-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">专业</span>
+								<input class="input_edit" name="major" />
+							</div>
+							<!--优先实习时间-->
+							<div class="clearfix">
+								<!--开始时间-->
+								<div class="inputBox_edit width_11r left">
+									<span class="inputTitle2_edit">优先实习时间</span>
+									<input class="input2_edit" name="startTime" />
+								</div>
+								<!--结束时间-->
+								<img class="arrow_edit" src="__IMG__/icon-arrow.png" />
+								<div class="inputBox_edit width_452r left">
+									<input class="input2_edit" name="endTime" />
+								</div>
+							</div>
+							<!--自我描述-->
+							<div class="textareaBox_edit">
+								<textarea maxlength="40" name="intro" placeholder="40字以内描述一下自己是个什么样的高端人才，让企业值得拥有你，知道自己的能力很重要"></textarea>
+								<span class="valueLength_edit"><span class="trueLength">0</span>/40</span>
+							</div>
+							<p class="tip_edit"></p>
+							<!--保存按钮-->
+							<button class="button-red saveInfo">保存信息</button>
+						</div>
+						<!--简历部分-->
+						<div class="resume myResume-block" style="display: none;">
+							<!--未上传-->
+							<div class="Upload_resume">
+								<img src="__IMG__/icon-UploadResume.png" />
+								<button class="button-red UploadResume_btn">上传我的简历</button>
+							</div>
+							<!--已上传-->
+							<div class="Lookat_resume" style="display: none;">
+								<button class="button-resume margin_23467r LookatResume_btn">刘水音简历.PDF</button>
+								<button class="button-red" onclick="window.location.href='uploadInPC_stu.html'">重新上传简历</button>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+			<div class="popup">
+				<div class="bg_popup"></div>
+				<div class="box_popup box_popup_editInfo">
+					<p class="tiltle_code_popup">请输入官方验证码</p>
+					<div class="inputBox_code_popup"><input type="tel" name="password" maxlength="6" unselectable="off" /></div>
+					<button class="button-red login">登&nbsp;&nbsp;&nbsp;录</button>
+				</div>
+			</div>
+		</div>
+<include file="Public:footer" />
