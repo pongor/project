@@ -58,6 +58,7 @@ class LoginController extends Controller
                 redirect(U('Index/index'));die;
             }
         }else{ //新用户
+            $user['at_time']    = time();
             $user_id = $model->getAdd($user);
             session('user_id',$user_id,31536000);//设置session
             //跳转到学生端。并输入验证码
