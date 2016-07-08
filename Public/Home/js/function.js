@@ -49,42 +49,7 @@ $(function(){
           $(this).parents('.inputBox_edit, .textareaBox_edit, .textareaBox_editRecord').css('border-color','#B5B5B6');
      }); 
 	
-	/**
-	 * editInfo_stu.html 
-	 * 点击保存时进行验证
-	 *
-	 */
-	$('.saveInfo').click(function(){
-		var phoneReg = /^1[34578]\d{9}$/; //手机正则
-		if($("input[name='name']").val() == ''){
-			$('.tip_edit').html('请填写真实姓名');
-			return false;
-		}else if( !phoneReg.exec($("input[name='phone']").val()) ){
-			$('.tip_edit').html('请填写正确手机号');
-			return false;
-		}else if($("input[name='grade']").val() == ''){
-			$('.tip_edit').html('请填写年级');
-			return false;
-		}else if($("input[name='college']").val() == ''){
-			$('.tip_edit').html('请填写学校');
-			return false;
-		}else if($("input[name='major']").val() == ''){
-			$('.tip_edit').html('请填写专业');
-			return false;
-		}else if($("input[name='startTime']").val() == ''){
-			$('.tip_edit').html('请填写可开始实习时间截点');
-			return false;
-		}else if($("input[name='endTime']").val() == ''){
-			$('.tip_edit').html('请填写实习结束时间截点');
-			return false;
-		}else if($("textarea[name='intro']").val() == ''){
-			$('.tip_edit').html('请填写自我描述');
-			return false;
-		}else{
-			$('.tip_edit').html('');
-			window.location.href='home_stu.html';
-		}
-	});
+
 	
 	/**
 	 * editInfo_stu.html 
@@ -102,12 +67,6 @@ $(function(){
 	$("input[name='password']").on('input',function(){
 		if($(this).val().length == 6){
 			$(this).blur();
-		}
-	});
-	
-	$('.login').click(function(){
-		if($("input[name='password']").val().length == 6){
-			$('.popup').css('display','none');
 		}
 	});
 	
