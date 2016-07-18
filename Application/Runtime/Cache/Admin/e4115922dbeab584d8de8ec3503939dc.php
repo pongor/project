@@ -47,13 +47,9 @@
 							<?php }else{ ?>
 							<td>已使用</td>
 							<?php } ?>
-
 							<td><?php echo (date('Y/m/d H:i:s',$data["at_time"])); ?></td>
 							<td><?php if($data['ut_time'] >0){ echo (date('Y/m/d H:i:s',$data["ut_time"])); ?> <?php }else{ ?> ---- <?php } ?></td>
 						</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-
-
-
 					</tbody>
 				</table>
 				<!--页码-->

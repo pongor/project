@@ -1,0 +1,61 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<include file="Public:nav"/>
+			<!--页面内容-->
+			<div class="content">
+				<!--offer卡片-->
+				<volist id="data" name="list">
+				<div class="practiceCard">
+					<!--头部-->
+					<header class="header_practiceCard">
+						<div class="banner_practiceCard"><img src="__ROOT__/{$data.files}" /></div>
+						<div class="head_practiceCard"><img src="{$data['headimg'] ? $data['headimg'] :$data['headimgurl']}" /></div>
+					</header>
+					<!--内容-->
+					<section class="section_practiceCard">
+						<p class="tip1_practiceCard">恭喜您通过了{$data.company}的面试<br/>快接受实习offer吧</p>
+						<!--接受按钮-->
+						<button class="button-red-short acceptOffer"><input type="hidden" value="{$data.company_id}"> 接&nbsp;&nbsp;受</button>
+					</section>
+				</div>
+				</volist>
+				<!--offer卡片-->
+			</div>
+			<!--确认接受弹出框-->
+			<div class="popup" style="display: none;">
+				<div class="bg_popup"></div>
+				<div class="box_popup box_popup_offer">
+					<img class="icon_popup_offer" src="__IMG__/icon-accept.png" />
+					<p class="tipText text_popup_offer">确认接受OFFER吗？</p>
+					<!-- 接受 -->
+					<button class="button-red" id="button-red">确&nbsp;&nbsp;&nbsp;认</button>
+					<!-- 关闭弹出框 -->
+					<img class="close_popup_offer closeOffer" src="__IMG__/btn-close.png" />
+				</div>
+			</div>
+		</div>
+<input type="hidden" id="company" value="">
+<script>
+	$(function () {
+		$('.acceptOffer').click(function(){
+			var company = $(this).find('input').val();
+			$('#company').val(company);
+		});
+		$('#button-red').click(function(){
+			var company_id = $('#company').val();
+
+			$.post('{:U("Offer/accept")}',{'id':company_id},function (data) {
+				var obj = $.parseJSON(data);
+				if(obj.error == 0 ){
+				 //	$('.popup').css('display','none');
+				 window.location.href="{:U('Offer/record')}";return;
+				}else{
+					alert(obj.msg);return;
+				}
+			});
+
+		});
+	});
+</script>
+<include file="Public:footer" />

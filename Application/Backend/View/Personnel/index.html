@@ -1,0 +1,121 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<include file="Public:nav" />
+			<!--页面内容-->
+			<section class="content">
+				<!--tab-->
+				<div class="tabBar_stuList">
+					<div class="tab_header allStu checkedTab_header">全&nbsp;&nbsp;&nbsp;&nbsp;部</div>
+					<div class="tab_header collectStu">已&nbsp;收&nbsp;藏</div>
+				</div>
+				<!--内容-->
+				<div>
+					<!--全部学生-->
+					<div class="allStu-block">
+
+						<volist id="data" name="list">
+						<!--学生卡片-->
+						<div class="studentCard">
+							<header>
+								<!--姓名-->
+								<p class="name_studentCard">{$data.name}</p>
+								<?php $house = D('House');
+								 $r =  $house ->getInfo(array('company_id' => $user_id,'user_id' => $data['id']));
+								  ?>
+								<img class="collect_studentCard uncollect" id="uncollect_{$data.id}" src="<?php echo $r ? '__IMG__/btn-collect.png' : '__IMG__/btn-uncollect.png'; ?>" onclick="add({$data.id})"/>
+							</header>
+							<!--跳转链接-->
+							<a href="{:U('Personnel/detail',array('id'=>$data['id']))}"><section>
+								<div class="headBox_studentCard">
+									<!--头像-->
+									<img class="head_studentCard" src="{$data.headimgurl}" />
+									<!--录取图标-->
+									<?php $model = D('Pushs');
+									//'company_id' => $user_id,
+									  $res = $model->getInfo(array('user_id'=>$data['id']));
+									if(isset($res['user_status']) && $res['user_status']  == 1) {
+									  ?>
+									<img class="enroll_studentCard" src="__IMG__/icon-enroll.png"  />
+									<?php } ?>
+								</div>
+								<div class="info_studentCard">
+									<!--年级、专业、学校-->
+									<p>{$data.grade}<span> | </span>{$data.major}</p>
+									<p>{$data.school}</p>
+								</div>
+							</section><footer>
+								<!--可实习时间-->
+								<p class="gray_studentCard">空档·{$data.intern} - {$data.enddate}</p>
+							</footer></a>
+
+						</div>
+						</volist>
+					</div>
+					<div class="collectStu-block" style="display: none;">
+						<volist id="res" name="ress">
+
+							<!--学生卡片-->
+							<div class="studentCard">
+								<header>
+									<!--姓名-->
+									<p class="name_studentCard">{$res.name}</p>
+									<?php $house = D('House');
+								 $r =  $house ->getInfo(array('company_id' => $user_id,'user_id' => $res['id']));
+									?>
+									<img class="collect_studentCard uncollect" id="uncollect_{$res.id}" src="<?php echo $r ? '__IMG__/btn-collect.png' : '__IMG__/btn-uncollect.png'; ?>" onclick="add({$res.id})"/>
+								</header>
+								<!--跳转链接-->
+								<a href="{:U('Personnel/detail',array('id'=>$res['id']))}"><section>
+									<div class="headBox_studentCard">
+										<!--头像-->
+										<img class="head_studentCard" src="{$res.headimgurl}" />
+										<!--录取图标-->
+										<?php $model = D('Pushs');
+									//'company_id' => $user_id,
+										$resa = $model->getInfo(array('user_id'=>$res['id']));
+										if(isset($resa['user_status']) && $resa['user_status']  == 1) {
+										?>
+										<img class="enroll_studentCard" src="__IMG__/icon-enroll.png"  />
+										<?php } ?>
+									</div>
+									<div class="info_studentCard">
+										<!--年级、专业、学校-->
+										<p>{$res.grade}<span> | </span>{$res.major}</p>
+										<p>{$res.school}</p>
+									</div>
+								</section><footer>
+									<!--可实习时间-->
+									<p class="gray_studentCard">空档·{$res.intern} - {$res.enddate}</p>
+								</footer></a>
+
+							</div>
+
+						</volist>
+
+					</div>
+				</div>
+			</section>
+		</div>
+<script>
+	function add(id){
+		$.post('{:U("Personnel/house")}',{'id':id},function (res) {
+			var data = $.parseJSON(res);
+			if(data.error == 0  ){
+				if(data.del == 1){
+					$('#uncollect_'+id).attr('src','__IMG__/btn-collect.png');
+					$('#uncollect_'+id).removeClass('uncollect').addClass('collect');
+				}else{
+
+					$('#uncollect_'+id).attr('src','__IMG__/btn-uncollect.png');
+					$('#uncollect_'+id).removeClass('collect').addClass('uncollect');
+				}
+
+			}else{
+				alert(data.msg);return;
+			}
+		});
+	}
+
+</script>
+<include file="Public:footer" />

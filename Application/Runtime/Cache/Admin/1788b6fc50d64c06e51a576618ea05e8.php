@@ -77,7 +77,7 @@
 		</div>
 		<script>
 			function upLoad(path,model,id)
-			{
+			{ 
 				var root = '/project';
 				$.ajaxFileUpload
 				({

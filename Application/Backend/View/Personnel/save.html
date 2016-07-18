@@ -1,0 +1,49 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+		<include file="Public:nav" />
+			<!--页面内容-->
+			<section class="content">
+				<!--页面主要内容-->
+				<div class="main">
+					<!--头部-->
+					<header class="header">
+						<!--占位-->
+						<div class="QRcodeBox_header">
+						</div>
+						<!--头像-->
+						<div class="head_header"><img src="{$data.headimgurl}" /></div>
+						<!--名字-->
+						<span class="name_header">{$data.nickname}</span>
+						<!--简介／描述-->
+						<p class="intro2_header">{$data.grade}<span> | </span>{$data.major}<span> | </span>{$data.school}</p>
+					</header>
+					<!--内容-->
+					<section class="section">
+						<!--个人信息-->
+						<div class="information_appraise myInfo-block">
+							<!--编辑链接-->
+							<a href="{:U('Personnel/comment',array('id'=>$data['id']))}"><img class="btnEdit" src="__IMG__/btn-edit.png"></a>
+							<volist id="l" name="list" >
+							<!--描述-->
+							<div class="apprBar_appraise clearfix">
+								<div class="tickBox_appraise"><!--勾选图标--><?php if(in_array($l['id'],$pro)){   ?><img src="__IMG__/icon-tick.png" /> <?php } ?></div>
+								<div class="textBox_appraise width_apprBar_appraise">
+									<p class="text_appraise">{$l.content}</p>
+								</div>
+							</div>
+							</volist>
+
+
+
+							<!--评价-->
+							<div class="comment_appraise">
+								{$ign}
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
