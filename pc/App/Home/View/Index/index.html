@@ -32,7 +32,7 @@
 	    $("#mobile").click(function(){
 		
 		    var mobile = $("#phone").val();
-			//alert(mobile);
+			//alert(mobile);return false;
 			validatemobile(mobile);
 		})
 		
@@ -149,7 +149,7 @@
 			   }
 			
 			 $.ajax({
-					url:'{:U("Home/Index/login")}',
+					url:'{:U("Home/Index/index")}',
 					type:'post',
 					data:{'phone':phone,'code':code},
 					success: function(data) {

@@ -51,7 +51,7 @@ class IndexController extends Controller {
 		$code = rand(pow(10,(6-1)), pow(10,6)-1);
 		$content="您本次注册的验证码：".$code.",如有打扰请自动忽略【独立说】";
 		
-		$account=AA00395;$password=AA00395zse;
+		
 		$account=xm000046;$password=123456;
 		
 		$url="http://dx.ipyy.net/sms.aspx?action=send&userid=&account=".$account."&password=".$password."&mobile=".$mobile."&content=".$content."&sendTime=&extno=";

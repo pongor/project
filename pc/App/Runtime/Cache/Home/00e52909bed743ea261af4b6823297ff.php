@@ -32,7 +32,7 @@
 	    $("#mobile").click(function(){
 		
 		    var mobile = $("#phone").val();
-			//alert(mobile);
+			//alert(mobile);return false;
 			validatemobile(mobile);
 		})
 		
@@ -68,7 +68,7 @@
                                     if(data != '1'){
 									   alert("发送失败,请稍后再试");
 									}else{
-									   alert("短信验证码已发送,2分钟内有效");
+									   alert("短信验证码已发送,10分钟内有效");
 										/**
 										 * 验证码倒计时
 										 */
@@ -149,7 +149,7 @@
 			   }
 			
 			 $.ajax({
-					url:'<?php echo U("Home/Index/login");?>',
+					url:'<?php echo U("Home/Index/index");?>',
 					type:'post',
 					data:{'phone':phone,'code':code},
 					success: function(data) {
