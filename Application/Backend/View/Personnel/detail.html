@@ -1,0 +1,154 @@
+<include file="Public:header" />
+<div class="wrap">
+    <!--导航栏-->
+<include file="Public:nav" />
+    <!--页面内容-->
+    <section class="content">
+        <div class="content_stuDet">
+            <!--占位-->
+            <div class="QRcodeBox_header">
+            </div>
+            <?php $house = D('House');
+								 $r =  $house ->getInfo(array('company_id' => $user_id,'user_id' => $data['id']));
+            ?>
+            <img class="collect_stuDet uncollect" id="uncollect_{$data.id}" src="<?php echo $r ? '__IMG__/btn-collect.png' : '__IMG__/btn-uncollect.png'; ?>" onclick="add({$data.id})" />
+            <div class="head2_header">
+                <!--头像-->
+                <img class="imgHead_header" src="{$data.headimgurl}" />
+            </div>
+            <!--名字-->
+            <span class="name_header">{$data.name}</span>
+            <!--简介／描述-->
+            <p class="intro_header">{$data.desc}</p>
+            <!--个人信息-->
+            <div class="information myInfo-block">
+                <img class="iconInfo" src="__IMG__/icon-info-phone.png" />
+                <p class="textInfo">{$data.mobile}</p>
+                <img class="iconInfo" src="__IMG__/icon-info-grade.png" />
+                <p class="textInfo">{$data.grade}</p>
+                <img class="iconInfo" src="__IMG__/icon-info-college.png" />
+                <p class="textInfo">{$data.school}</p>
+                <img class="iconInfo" src="__IMG__/icon-info-major.png" />
+                <p class="textInfo">{$data.major}</p>
+                <img class="iconInfo" src="__IMG__/icon-info-time.png" />
+                <p class="textInfo noMargin">可实习时间 {$data.intern}-{$data.enddate}</p>
+            </div>
+            <a href="{$data.resume}"><button class="button-resume">{$data.name}的简历.PDF</button></a>
+            <?php
+               $model = D('Pushs');
+                $res = $model->getInfo(array('company_id' =>$id,'user_id' => $data['id']));
+            if(!$res){
+             ?>
+            <button class="button-red margin_btn2_stuDetErol">电话邀约面试</button>
+            <button class="button-white margin_btn3_stuDetErol wantToSendOffer">发送录用通知</button>
+            <?php }else{ ?>
+            <button class="button-white margin_btn3_stuDetErol">已发送录用通知</button>
+            <?php } ?>
+
+        </div>
+    </section>
+    <!--确认接受弹出框-->
+    <div class="popup" style="display: none;">
+        <div class="bg_popup"></div>
+        <!--填写个人信息弹出框-->
+        <div class="box_popup box2_popup_studet" style="display: none;">
+            <img class="icon_popup_offer" src="__IMG__/icon-edit.png" />
+            <p class="tipText text_popup_studet">您还没有填写个人信息</p>
+            <p class="tipText text2_popup_studet">请填写个人信息后再发送录取通知</p>
+            <!-- 接受 -->
+            <button class="button-red editInfoPlease" style="letter-spacing: 0;">确&nbsp;&nbsp;&nbsp;认</button>
+            <!-- 关闭弹出框 -->
+            <img class="close_popup_offer closeOffer" src="__IMG__/btn-close.png" />
+        </div>
+        <!--发送录取通知弹出框-->
+        <div class="box_popup box_popup_studet" style="display: none;">
+            <img class="icon_popup_offer" src="__IMG__/icon-dialog.png" />
+            <p class="tipText text_popup_offer">请先面试该学生后在发送录取通知书</p>
+            <!-- 接受 -->
+            <button class="button-red sendOffer" style="letter-spacing: 0;">已经通过面试·发送录取通知</button>
+            <!-- 关闭弹出框 -->
+            <img class="close_popup_offer closeOffer" src="__IMG__/btn-close.png" />
+        </div>
+        <!--发送成功弹出框-->
+        <div class="box_popup box3_popup_studet sendSuccess" style="display: none;">
+            <img class="icon_popup_offer" src="__IMG__/icon-ok.png" />
+            <p class="tipText text_popup_studet">您已发送录取通知书！</p>
+            <p class="tipText text3_popup_studet">请等待学生确认</p>
+            <!-- 关闭弹出框 -->
+            <img class="close_popup_offer closeOffer" src="__IMG__/btn-close.png" />
+        </div>
+    </div>
+</div>
+<script>
+    /**
+     * studentDetail_etp.html  studentDetailEnroll_etp.html
+     * 收藏／未收藏切换
+     *
+     */
+    function add(id){
+        $.post('{:U("Personnel/house")}',{'id':id},function (res) {
+            var data = $.parseJSON(res);
+            if(data.error == 0  ){
+                if(data.del == 1){
+                    $('#uncollect_'+id).attr('src','__IMG__/btn-collect.png');
+                    $('#uncollect_'+id).removeClass('uncollect').addClass('collect');
+                }else{
+
+                    $('#uncollect_'+id).attr('src','__IMG__/btn-uncollect.png');
+                    $('#uncollect_'+id).removeClass('collect').addClass('uncollect');
+                }
+
+            }else{
+                alert(data.msg);return;
+            }
+        });
+    }
+    $(function(){
+        /**
+         * studentDetail_etp.html
+         * 发送录取通知－弹出框切换
+         *
+         */
+        $('.wantToSendOffer').click(function(){
+            var id = '{$data.id}';
+            $.post('{:U("Personnel/offer")}',{'id':id},function (res) {
+                var result = $.parseJSON(res);
+                if(result.error != 0){
+                    $('.popup').css('display','block');
+                    $('.editInfoPlease').parents('.box_popup').css('display','block');return;
+                }else{
+                    $('.box_popup_studet').css('display','block');
+                    $('.popup').css('display','block');
+                }
+            });
+            /*
+            $('.editInfoPlease').click(function(){
+                $(this).parents('.box_popup').css('display','none');
+                $('.sendOffer').parents('.box_popup').css('display','block');
+            });
+            $('.sendOffer').click(function(){
+                $(this).parents('.box_popup').css('display','none');
+                $('.sendSuccess').css('display','block');
+            });
+            */
+
+        });
+        var id = '{$data.id}';
+        $('.sendOffer').click(function () {
+            $.post('{:U("Personnel/sendoffer")}',{'id':id},function (data) {
+                var t = $.parseJSON(data);
+                if(t.error == 0){
+
+                    $('.box_popup_studet').css('display','none');
+                    $('.sendSuccess').css('display','block');
+                    $('.popup').css('display','block');
+
+                }else{
+                    alert(t.msg);return;
+                }
+            });
+        });
+
+    });
+</script>
+<include file="Public:footer" />

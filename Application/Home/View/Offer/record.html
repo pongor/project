@@ -1,0 +1,56 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<include file="Public:nav" />
+			<!--页面内容-->
+			<div class="content">
+				<div class="practiceCard">
+					<!--头部-->
+					<header class="header_practiceCard">
+						<div class="banner_practiceCard"><img src="__ROOT__{$ad.file}" /></div>
+						<div class="head_practiceCard"><img src="{$data['headimg'] ? $data['headimg'] : $data['headimgurl']}" /></div>
+					</header>
+					<!--内容-->
+					<section class="section_practiceCard section_Record">
+						<p class="tipText">开始记录你实习期的点点滴滴吧</p>
+						<!--添加记录链接-->
+						<a href="{:U('Offer/addrecord')}"><div class="addRecord">
+							<img src="__IMG__/icon-addRecord.png" />
+							<p>添加你的实习记录</p>
+						</div></a>
+						<!--一条记录-->
+						<volist id="r" name="list">
+						<div class="box_record">
+							<!--记录内容-->
+							<p class="text_record">
+								{$r.content}
+							</p>
+							<div class="operaBar_record">
+								<!--日期-->
+								<span class="deta_record">{$r.dates}</span>
+								<!--控制操作栏的icon-->
+								<img class="iconShowHidd_record showhiddOpera off" src="__IMG__/icon-showHidd.png" />
+								<!--操作栏-->
+								<div class="operaBox_record operaRecord">
+									<button class="buttonOpera_record buttonEdit_record" onclick="window.location.href='{:U('Offer/addrecord',array('id'=>$r['id']))}'">编辑</button><span class="verticalOpera_record"></span>
+									<button class="buttonOpera_record buttonDel_record deleteRecord" onclick="del({$r.id})">删除</button>
+								</div>
+							</div>
+						</div>
+						</volist>
+					</section>
+
+				</div>
+			</div>
+		</div>
+<script>
+	function del(id){
+		$.post('{:U("Offer/del")}',{'id':id},function (res) {
+				var data = $.parseJSON(res);
+			if(data.error != 0){
+				alert(data.msg);return;
+			}
+		});
+	}
+</script>
+<include file="Public:footer" />

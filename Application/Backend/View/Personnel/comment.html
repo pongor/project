@@ -1,0 +1,94 @@
+<include file="Public:header" />
+<div class="wrap">
+    <!--导航栏-->
+<include file="Public:nav" />
+    <!--页面内容-->
+    <section class="content">
+        <!--页面主要内容-->
+        <div class="main">
+            <!--头部-->
+            <header class="header">
+                <!--占位-->
+                <div class="QRcodeBox_header">
+                </div>
+                <!--头像-->
+                <div class="head_header"><img src="{$data.headimgurl}" /></div>
+                <!--名字-->
+                <span class="name_header">{$data.nickname}</span>
+                <!--简介／描述-->
+                <p class="intro2_header">{$data.grade}<span> | </span>{$data.major}<span> | </span>{$data.school}</p>
+            </header>
+            <!--内容-->
+            <section class="section">
+                <form action="{:U('Personnel/commentsave')}" method="post" class="from">
+                <!--个人信息-->
+                <div class="information_appraise myInfo-block">
+                    <div class="title_appraise">以下描述正确的请打勾</div>
+                    <?php $array = unserialize($pro['comment']); ?>
+                    <volist id="r" name="list" >
+                    <!--描述--><?php
+
+                     $true = in_array($r['id'],$array);
+
+                     ?>
+                    <div class="apprBar_appraise clearfix">
+                        <div class="checkedBoxBox_appraise">
+                            <?php  if($true) {   ?>
+                            <!--未选中-->
+                            <img class="checkedBox_appraise hidden" src="__IMG__/btn-checkedBox.png" />
+                            <!--选中-->
+                            <img class="checked_appraise" src="__IMG__/btn-checked.png" />
+
+                            <input type="checkbox" value="{$r.id}" name="blem[]"  style="display: none;" checked>
+                            <?php }else{ ?>
+                            <img class="checkedBox_appraise" src="__IMG__/btn-checkedBox.png" />
+                            <!--选中-->
+                            <img class="checked_appraise hidden" src="__IMG__/btn-checked.png" />
+
+                            <input type="checkbox" value="{$r.id}" name="blem[]"  style="display: none;" >
+                            <?php } ?>
+                        </div>
+                        <div class="textBox_appraise width_apprBar_appraise">
+                            <p class="text_appraise">{$r.content}</p>
+                        </div>
+                    </div>
+                    </volist>
+                    <input type="hidden" name="id" value="{$data.id}" >
+                    <!--写评价-->
+                    <div class="title2_appraise">请留下您的评语</div>
+                    <!--自我描述-->
+                    <div class="textareaBox2_edit">
+                        <textarea maxlength="40" name="appraise" placeholder="请填写您对此学生的详细评价">{$pro.content}</textarea>
+                    </div>
+                    <button class="button-red marginBtn_appraise" >保存评价</button>
+                </div>
+                </form>
+            </section>
+        </div>
+    </section>
+</div>
+<script>
+    $(function(){
+        $('.marginBtn_appraise').click(function(){
+            $('.from').submit();
+        });
+        /**
+         * editAppraise_etp.html
+         * 描述选中／未选中切换
+         *
+         */
+        $('.apprBar_appraise').click(function(){
+
+            if($(this).find('.checkedBox_appraise').hasClass('hidden')){
+                $(this).find('input').click();
+                $(this).find('.checkedBox_appraise').removeClass('hidden');
+                $(this).find('.checked_appraise').addClass('hidden');
+            }else{
+                $(this).find('input').click();
+                $(this).find('.checked_appraise').removeClass('hidden');
+                $(this).find('.checkedBox_appraise').addClass('hidden');
+            }
+        });
+    });
+</script>
+<include file="Public:footer" />

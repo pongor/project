@@ -1,0 +1,48 @@
+<include file="Public:header" />
+<div class="wrap">
+    <!--导航栏-->
+<include file="Public:nav" />
+    <!--页面内容-->
+    <section class="content content_myStu">
+        <!--学生卡片-->
+        <volist id="list" name="data">
+        <div class="studentCard">
+            <!--跳转链接-->
+            <a href="{:U('Personnel/comment',array('id'=>$list['id']))}"><header>
+                <!--姓名-->
+                <p class="name_studentCard">{$list.nickname}</p>
+            </header><section>
+                <div class="headBox_studentCard">
+                    <!--头像-->
+                    <img class="head_studentCard" src="{$list.headimgurl}" />
+                </div>
+                <div class="info_studentCard">
+                    <!--年级、专业、学校-->
+                    <p>{$list.grade}<span> | </span>{$list.major}</p>
+                    <p>{$list.school}</p>
+                </div>
+            </section>
+                <footer>
+                    <!--评价状态-->
+                    <?php if($list['user_status'] == 3){   ?>
+                        <p class="green_studentCard">正在等待学生接受offer</p>
+                    <?php }else{
+                    if($list['status'] == 1){
+                    ?>
+                    <p class="gray_studentCard">已评价</p>
+                    <?php }else{ ?>
+                    <p class="red_studentCard">尚未评价</p>
+                    <?php } ?>
+
+                    <?php } ?>
+
+
+
+                </footer></a>
+        </div>
+        </volist>
+        <!--学生卡片-->
+
+    </section>
+</div>
+<include file="Public:footer"/>

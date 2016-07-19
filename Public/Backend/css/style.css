@@ -1,0 +1,1127 @@
+
+/*适配320 360 375 384 414*/
+@media only screen and (min-width:320px) {
+	html{font-size: 16px;}
+}
+@media only screen and (min-width:360px) {
+	html{font-size: 18px;}
+}
+@media only screen and (min-width:375px) and (max-width:383px) and (orientation : portrait) {
+	html{font-size: 18.75px;}
+}
+@media only screen and (min-width:384px) and (max-width:413px) and (orientation : portrait) {
+	html{font-size: 19.2px;}
+}
+@media only screen and (min-width:414px) and (max-width:736px) and (orientation : portrait) {
+	html{font-size: 20.7px;}
+}
+
+*{ box-sizing: border-box; }
+html,body{ width: 100%; height: 100%; }
+
+.wrap{
+	position: relative;
+	z-index: 100;
+	width: 20rem;
+	min-height: 100%;
+	height: auto;
+	background-color: #f5f5f5;
+}
+
+/*student nav start*/
+
+.nav{
+	position: fixed;
+	z-index: 500;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2.6133rem;
+	border-top: 1px solid #eeeeee;
+	overflow: hidden;
+}
+.bg_nav{
+	/*display: none;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2.56rem;
+	background-color: #ffffff;
+	filter:alpha(opacity=80);  
+	-moz-opacity:0.8;  
+	-khtml-opacity: 0.8;  
+	opacity: 0.8;
+}
+.tab_nav{
+	position: relative;
+	float: left;
+	width: 5rem;
+	height: 2.56rem;
+	margin: 0 2.5rem;
+}
+.tab2_nav{
+	position: relative;
+	float: left;
+	width: 5rem;
+	height: 2.56rem;
+	margin: 0 0.8333rem;
+}
+.imgPractice_nav{
+	position: relative;
+	display: block;
+	margin: 0.2667rem auto;
+	height: 1.12rem;
+}
+.boxMy_nav, .boxMy2_nav{
+	position: relative;
+	display: block;
+	margin: 0.1666rem auto 0.1rem auto;
+	width: 1.3333rem;
+	height: 1.3333rem;
+	border-radius: 1.333rem;
+}
+.boxMy_nav{
+	background-image: url(../img/icon-homeChecked.png);
+	background-size: 100%;
+}
+.boxMytext_nav{
+	padding-top: 1px;
+}
+.imgMy_nav{
+	width: 1.12rem;
+	height: 1.12rem;
+	margin: 0.1067rem;
+	border-radius: 1.12rem;
+}
+.text_nav, .textChecked_nav{
+	font-size: 0.5333rem;
+    line-height: 0.5333rem;
+    display: block;
+    text-align: center;
+}
+.text_nav{
+	color: #b7a2aa;
+}
+.textChecked_nav{
+	color: #ff2d52;
+}
+
+/*student nav end*/
+/*student content start*/
+
+.content, .main{
+	width: 100%;
+	height: auto;
+}
+.content{
+	padding-bottom: 2.6133rem;
+}
+.tiptop{
+	width: 100%;
+	height: 3.2rem;
+}
+.tiptop table, .tiptop table tr, .tiptop table tr td{
+	width: 100%;
+    height: 100%;
+}
+.tiptop table tr td{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.96rem;
+    color: #fff;
+    padding: 0 01rem;
+    line-height: 1.3rem;
+}
+.BGtiptop{
+	background-color: #ea5263;/* fallback */
+	background: -webkit-gradient(linear, left top, right top, from(#ea5263), to(#ff517c));/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-linear-gradient(left, #ea5263, #ff517c);/* Safari 5.1, Chrome 10+ */
+	background: -moz-linear-gradient(left, #ea5263, #ff517c);/* Firefox 3.6+ */
+	background: -ms-linear-gradient(left, #ea5263, #ff517c);/* IE 10 */
+	background: -o-linear-gradient(left, #ea5263, #ff517c);/* Opera 11.10+ */
+}
+.header, .section{
+	border-bottom: 1px solid #EEEEEE;
+	margin-bottom: 0.8533rem;
+}
+.section{
+	border-top: 1px solid #EEEEEE;
+}
+.QRcodeBox_header{
+	height: 1.76rem;
+	width: 100%;
+}
+.QRcode_header{
+	float: left;
+	height: 1.76rem;
+	width: auto;
+	padding: 0.5333rem 0 0 1.0667rem;
+}
+.QRcode_header img{
+	float: left;
+	width: 0.9067rem;
+	height: auto;
+}
+.QRcode_header span{
+	float: left;
+	display: block;
+	height: 0.9067rem;
+	line-height: 0.9067rem;
+	padding-left: 0.2667rem;
+	padding-top: 1.5px;
+	font-size: 0.8rem;
+	color: #B7A2AA;
+}
+.head_header{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 4rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.head2_header{
+	position: relative;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 auto;
+}
+.head_header img, .imgHead_header{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 4rem;
+}
+.enrollHead_header{
+	position: absolute;
+	right: 0.16rem;
+	bottom: 0rem;
+	height: 0.9067rem;
+}
+.name_header{
+	display: block;
+	height: 1.067rem;
+	line-height: 1.067rem;
+	margin: 0.5333rem auto 0.6133rem auto;
+	text-align: center;
+	font-size: 0.8rem;
+	color: #222;
+}
+.intro_header, .intro2_header{
+	text-indent: 0.72rem;
+	width: 100%;
+	height: auto;
+	padding: 0.2667rem 2.28rem 0.96rem 2.28rem;
+	line-height: 1.0667rem;
+	font-size: 0.6933rem;
+	color: #999;
+	letter-spacing: 0.0133rem;
+}
+.intro2_header{
+	text-indent: 0rem;
+	text-align: center;
+}
+.tabBar_header{
+	width: 100%;
+	height: 2.9867rem;
+	display: -webkit-box;
+    display: -moz-box;
+    display: box;
+}
+.tab_header, .tab2_header{
+	width: 6.6934rem;
+	margin: 0 1.6533rem;
+	padding: 1.2rem 0 0.9867rem 0;
+	line-height: 0.8rem;
+	font-size: 0.8rem;
+	color: #888;
+	text-align: center;
+	letter-spacing: 0.0133rem;
+}
+.tab2_header{
+	margin: 0 auto;
+}
+.checkedTab_header{
+	color: #666;
+	border-bottom: 2px solid #FF2D52;
+}
+
+.main .header, .main .section{
+	background-color: #fff;
+}
+.editInfo, .resume{
+	padding: 2.3467rem 1.2rem;
+}
+.information{
+	position: relative;
+	padding: 1.1733rem 1.2rem;
+}
+.information_etp{
+	position: relative;
+	padding: 1.1733rem 1.2rem 0rem 1.2rem;
+}
+.Upload_resume{
+	
+}
+.Lookat_resume{
+	
+}
+
+.Upload_resume img{
+	display: block;
+	width: 4.32rem;
+	padding-top: 0.4533rem;
+	padding-bottom: 2.3467rem;
+	margin: 0 auto;
+}
+
+.iconInfo{
+	display: block;
+	height: 0.8267rem;
+	margin: 0 auto;
+	margin-bottom: 0.2667rem;
+}
+.textInfo{
+	height: 0.6933rem;
+	line-height: 0.6933rem;
+	font-size: 0.6933;
+	margin-bottom: 0.88rem;
+	color: #999;
+	text-align: center;
+}
+.information .noMargin{
+	margin: 0;
+}
+.btnEdit{
+	position: absolute;
+	top: 0.16rem;
+	right: 0.5333rem;
+	width: 1.92rem;
+	padding: 0.5333rem;
+}
+.tipText{
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	color: #222;
+	text-align: center;
+}
+/*student content end*/
+/*student edit start*/
+
+.inputBoxLang_edit{
+	width: 100%;
+}
+.inputBox_edit{
+	height: 1.6533rem;
+	background-color: #f7f8f8;
+	border: 1px solid #b5b5b6;
+	border-radius: 0.24rem;
+	padding: 0.24rem 0.4rem;
+	margin-bottom: 0.7467rem;
+}
+.inputTitle1_edit, .inputTitle2_edit{
+	float: left;
+	display: block;
+	height: 1.0667rem;
+	line-height: 1.0667rem;
+	font-size: 0.8rem;
+	color: #222222;
+}
+.inputTitle1_edit{
+	letter-spacing: 0.2667rem;
+}
+.input_edit, .input2_edit{
+	border: none;
+	height: 1.0667rem;
+	line-height: 1.0667rem;
+	font-size: 0.6933rem;
+	color: #888;
+	background: none;
+	outline: none;
+	margin-top: 1px;
+}
+.input_edit{
+	float: left;
+	width: 14.4rem;
+}
+.input2_edit{
+	float: right;
+	width: 3.9rem;
+    text-align: center;
+    margin-right: -3px;
+}
+.arrow_edit{
+    float: left;
+    display: block;
+	width: 1.2267rem;
+    padding-top: 0.5867rem;
+    margin-left: 0.48rem;
+    margin-right: 0.3733rem;
+}
+.textareaBox_edit{
+	position: relative;
+	width: 100%;
+	height: 3.5733rem;
+	background-color: #f7f8f8;
+	border: 1px solid #b5b5b6;
+	border-radius: 0.24rem;
+	padding: 0.24rem 0.4rem;
+}
+.textareaBox2_edit{
+	position: relative;
+	width: 100%;
+	height: 5.92rem;
+	background-color: #f7f8f8;
+	border: 1px solid #b5b5b6;
+	border-radius: 0.24rem;
+	padding: 0.24rem 0.4rem;
+}
+.textareaBox2_edit textarea{
+    width: 100%;
+    height: 5.4rem;
+	resize: none;
+    outline: none;
+    padding: 0;
+    font-size: 0.6933rem;
+    line-height: 1.0666rem;
+    background: none;
+    border: none;
+    margin-top: 2px;
+    color: #666;
+}
+.textareaBox_edit textarea{
+    width: 100%;
+    height: 2.1333rem;
+	resize: none;
+    outline: none;
+    padding: 0;
+    font-size: 0.6933rem;
+    line-height: 1.0666rem;
+    background: none;
+    border: none;
+    margin-top: 2px;
+    color: #888;
+}
+.valueLength_edit{
+	position: absolute;
+    right: 0.2133rem;
+    bottom: 0.24rem;
+    font-size: 0.5333rem;
+    color: #222;	
+}
+.tip_edit{
+	height: 2.3467rem;
+	line-height: 0.9rem;
+    text-align: center;
+    padding-top: 0.9333rem;
+    font-size: 0.6933rem;
+    color: #ff2d52;
+}
+
+
+
+/*student edit end*/
+/*student QRcode start*/
+.BG_QRcode{
+	background-color: #ff88a4;/* fallback */
+	background: -webkit-gradient(linear, left top, right bottom, from(#ff88a4), to(#de3c4b));/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-linear-gradient(left top, #ff88a4, #de3c4b);/* Safari 5.1, Chrome 10+ */
+	background: -moz-linear-gradient(left top, #ff88a4, #de3c4b);/* Firefox 3.6+ */
+	background: -ms-linear-gradient(left top, #ff88a4, #de3c4b);/* IE 10 */
+	background: -o-linear-gradient(left top, #ff88a4, #de3c4b);/* Opera 11.10+ */
+}
+.BG2_QRcode{
+	height: 100%;
+	padding-top: 3.7867rem;
+	background-image: url(../img/bg-QRcode.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0rem 0rem;
+}
+.main_QRcode{
+	width: 16rem;
+	height: 20.4533rem;
+	margin: 0 auto;
+	border-radius: 0.2rem;
+	background-color: #FFFFFF;
+}
+.main_QRcode img{
+	display: block;
+	width: 8.2133rem;
+	margin: 0 auto;
+	padding-top: 3.8133rem;
+	padding-bottom: 2.6133rem;
+}
+.main_QRcode span{
+	display: block;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #888;
+	text-align: center;
+	padding-top: 0.5333rem;
+}
+/*student QRcode end*/
+/*student editInPC start*/
+.main_editInPc{
+	width: 100%;
+	height: 25rem;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+}
+.main_editInPc img{
+	display: block;
+	width: 4.34rem;
+	margin: 0 auto;
+	padding-top: 7.12rem;
+	padding-bottom: 1.3067rem;
+}
+.main_editInPc button{
+	margin-top: 6.6533rem;
+}
+
+
+/*student editInPC end*/
+/*student noInvitation start*/
+.main_noInvitation{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.main_noInvitation img{
+	display: block;
+	width: 8rem;
+	margin: 0 auto;
+	padding-top: 6.8967rem;
+	padding-bottom: 1.7067rem;
+}
+.main_noInvitation p{
+	padding-bottom: 0.8267rem;
+}
+/*student noInvitation end*/
+/*student editRecord start*/
+.main_editRecord{
+	width: 100%;
+	height: 25.4133rem;
+	padding-top: 2.32rem;
+	background-color: #FFFFFF;
+}
+.textareaBox_editRecord{
+	width: 17.0667rem;
+	height: 16rem;
+	padding: 0.4267rem 0.64rem;
+	margin: 0 auto;
+	margin-bottom: 2.3467rem;
+	border: 1px solid #B5B5B6;
+	background-color: #F7F8F8;
+	border-radius: 0.2933rem;
+}
+.textareaBox_editRecord textarea{
+	width: 100%;
+	height: 100%;
+	font-size: 0.6933rem;
+	color: #999;
+	line-height: 1.2267rem;
+	background: none;
+	border: none;
+	resize: none;
+	outline: none;
+}
+/*student editRecord end*/
+/*student practiceCard start*/
+.practiceCard{
+	margin-bottom: 0.8533rem;
+	background-color: #FFFFFF;
+}
+.header_practiceCard{
+	position: relative;
+	width: 100%;
+	height: 9.6rem;
+}
+.section_practiceCard{
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	padding-top: 2.0266rem;
+	border-bottom: 1px solid #EEEEEE;
+}
+.section_Record{
+	min-height: 18rem;
+	padding-left: 0.6667rem;
+	padding-right: 0.6667rem;
+}
+.banner_practiceCard{
+	position: relative;
+	z-index: 200;
+	width: 100%;
+	height: 9.6rem;
+	overflow: hidden;
+}
+.banner_practiceCard img{
+	width: 100%;
+}
+.head_practiceCard{
+	position: absolute;
+	left: 7.9734rem;
+	bottom: -2.0266rem;
+	z-index: 210;
+	width: 4.0533rem;
+	height: 4.0533rem;
+	border-radius: 4.0533rem;
+	border: 1px solid #FFFFFF;
+	overflow: hidden;
+}
+.head_practiceCard img{
+	width: 3.9467rem;
+	border-radius: 3.9467rem;
+}
+.tip1_practiceCard{
+	padding: 0.96rem 2rem 0.6933rem 2rem;
+	font-size: 0.8rem;
+	line-height: 1.2267rem;
+	color: #666666;
+	text-align: center;
+}
+.section_practiceCard .button-red-short{
+	margin-bottom: 0.7467rem;
+}
+.section_Record .tipText{
+	padding-top: 1.1733rem;
+}
+.addRecord{
+	width: 9rem;
+	height: 2.08rem;
+	margin: 0.5867rem auto;
+	padding: 0.5867rem;
+}
+.addRecord img{
+	float: left;
+	width: 0.9067rem;
+}
+.addRecord p{
+	float: left;
+	height: 0.9rem;
+	line-height: 0.8rem;
+	padding-top: 0.135rem;
+	padding-left: 0.1867rem;
+	font-size: 0.8rem;
+	color: #FF2D52;
+}
+.section_Record .margin_addRec{
+	margin-top: 1.76rem;
+	margin-bottom: 1.76rem;
+}
+.box_record{
+	width: 100%;
+	border-top: 1px solid #B5B5B6;
+	padding-top: 0.6933rem;
+}
+.text_record{
+	line-height: 1.12rem;
+	font-size: 0.6933rem;
+	color: #666666;
+	padding: 0 0.4267rem;
+}
+.operaBar_record{
+	height: 1.76rem;
+}
+.deta_record{
+	display: block;
+	float: left;
+	padding-top: 0.8rem;
+	font-size: 0.5333rem;
+	line-height: 0.5333rem;
+	color: #999;
+	padding-left: 0.4267rem;
+}
+.iconShowHidd_record{
+	float: right;
+	display: block;
+	width: 1.5733rem;
+	height: 1.76rem;
+	padding: 0.64rem 0.4rem 0.48rem 0.1067rem;
+}
+.operaBox_record{
+	float: right;
+	/*width: 10.6667rem;*/
+	width: 0rem;
+	height: 1.6rem;
+	margin-top: 0.12rem;
+	border-radius: 0.16rem;
+	background-color: #b7a2aa;
+	padding: 0.16rem 0;
+	overflow: hidden;
+}
+.buttonOpera_record{
+	float: left;
+	width: 4.233rem;
+	height: 1.28rem;
+	background-color: #b7a2aa;
+	color: #FFFFFF;
+	font-size: 0.6933rem;
+	padding-left: 1.2rem;
+	margin: 0 0.5067rem;
+}
+.verticalOpera_record{
+	float: left;
+	display: block;
+	width: 1px;
+	height: 100%;
+	background-color: #8a5e7f;
+}
+.buttonEdit_record{
+	background-image: url(../img/btn-editRecord.png);
+	background-repeat: no-repeat;
+	background-size: 0.8267rem;
+	background-position: 1rem 0.2133rem;
+}
+.buttonDel_record{
+	background-image: url(../img/btn-DeleteRecord.png);
+	background-repeat: no-repeat;
+	background-size: 0.8267rem;
+	background-position: 1rem 0.2133rem;
+}
+.empty_recordList{
+	border-top: 1px solid #B5B5B6;
+	height: 3.04rem;
+}
+/*student practiceCard end*/
+/*student popup start*/
+.popup{
+	display: block;
+	position: fixed;
+	z-index: 600;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.bg_popup{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	filter:alpha(opacity=30);  
+	-moz-opacity:0.3;  
+	-khtml-opacity: 0.3;  
+	opacity: 0.3;
+}
+.box_popup{
+	position: relative;
+	width: 16rem;
+	background-color: #FFFFFF;
+	border-radius: 0.32rem;
+	margin: 0 auto;
+}
+.box_popup_editInfo{
+	height: 13.3333rem;
+	margin-top: 9.0667rem;
+}
+.box_popup_offer{
+	width: 14.4rem;
+	height: 15.92rem;
+	margin-top: 5.9733rem;
+}
+.box_popup_studet{
+	width: 14.4rem;
+	height: 15.92rem;
+	margin-top: 5.9733rem;
+}
+.box2_popup_studet{
+	width: 14.4rem;
+	height: 17.6rem;
+	margin-top: 5.9733rem;
+}
+.box3_popup_studet{
+	width: 14.4rem;
+	height: 12.48rem;
+	margin-top: 8.5867rem;
+}
+.tiltle_code_popup{
+	padding-top: 2.2933rem;
+    padding-bottom: 1.0667rem;
+    color: #666666;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.inputBox_code_popup{
+	position: relative;
+	width: 14.2rem;
+	height: 1.92rem;
+	margin-left: 1.6rem;
+	margin-bottom: 2.8267rem;
+	padding-left: 0.8667rem;
+	overflow: hidden;
+	background-image: url(../img/bg-password.png);
+	background-size: auto 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.inputBox_code_popup input{
+	position: absolute;
+	top: 0;
+	left: 0.8667rem;
+	width: 14rem;
+	height: 100%;
+	outline: none;
+	border: none;
+	letter-spacing: 1.7333rem;
+	background: none;
+	color: #333;
+	font-size: 0.6933rem;
+}
+.icon_popup_offer{
+	display: block;
+    height: 4.4533rem;
+    margin: 0 auto;
+    padding-top: 1.7866rem;
+}
+.text_popup_offer{
+	margin-top: 1.3333rem;
+    margin-bottom: 2.24rem;
+}
+.close_popup_offer{
+    display: block;
+    height: 3.1rem;
+    padding: 0.6rem 2rem 1rem 2rem;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+}	
+.text_popup_studet{
+	margin-top: 1.3333rem;
+}
+.text2_popup_studet{
+	margin-top: 0.8533rem;
+    margin-bottom: 2.24rem;
+}
+.text3_popup_studet{
+	margin-top: 0.4267rem;
+}
+
+/*student popup end*/
+/*student studentCard start*/
+.content_myStu{
+	padding-top: 0.1px;
+}
+.studentCard{
+	width: 18.9333rem;
+	margin: 0.53333rem;
+	padding: 0 0.6133rem;
+	background-color: #FFFFFF;
+	border: 1px solid #B5B5B6;
+	border-radius: 0.3495rem;
+}
+.studentCard header{
+	width: 100%;
+	height: 1.76rem;
+	border-bottom: 1px solid #cdcecd;
+	padding: 0 2px;
+}
+.name_studentCard{
+	float: left;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	color: #222222;
+	padding-top: 0.56rem;
+}
+.collect_studentCard{
+	float: right;
+	display: block;
+	height: 1.7067rem;
+	margin-right: -0.6133rem;
+    padding: 0.5067rem 0.6133rem 0.3733rem 0.8rem;
+}
+.studentCard section{
+	height: 5.44rem;
+}
+.headBox_studentCard{
+	position: relative;
+	float: left;
+	width: 3.46rem;
+	height: 3.46rem;
+	margin: 1.0133rem 0.7467rem 0 0.2667rem;
+	overflow: hidden;
+}
+.head_studentCard{
+	display: block;
+	height: 3.46rem;
+	border-radius: 3.46rem;
+}
+.enroll_studentCard{
+	position: absolute;
+	right: 0;
+	bottom: 0.16rem;
+	height: 0.9067rem;
+}
+.info_studentCard{
+	float: left;
+	width: 13.0667rem;
+	padding-top: 1.7333rem;
+}
+.info_studentCard p{
+	width: 100%;
+	height: 1.3333rem;
+	line-height: 0.8rem;
+	color: #666666;
+	font-size: 0.8rem;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.info_studentCard p span{
+	margin-top: -2px;
+    padding-top: -2px;
+    font-size: 0.8rem;
+    position: relative;
+    top: -1px;
+}
+.studentCard footer{
+	height: 2.3467rem;
+	border-top: 1px solid #CDCECD;
+}
+.red_studentCard, .green_studentCard, .gray_studentCard{
+	float: right;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	padding-top: 0.72rem;
+}
+.red_studentCard{
+	color: #FF2D52;
+}
+.green_studentCard{
+	color: #6eb6b3;
+}
+.gray_studentCard{
+	color: #888888;
+}
+
+.tab_header{
+	width: 6.6934rem;
+	margin: 0 1.6533rem;
+	padding: 0.7467rem 0 0.72rem 0;
+	line-height: 0.8rem;
+	font-size: 0.8rem;
+	color: #888;
+	text-align: center;
+	letter-spacing: 0.0133rem;
+}
+.checkedTab_header{
+	color: #666;
+	border-bottom: 2px solid #FF2D52;
+}
+
+.tabBar_stuList{
+	width: 100%;
+	height: 2.2933rem;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+	display: -webkit-box;
+    display: -moz-box;
+    display: box;
+}
+.allStu-block, .collectStu-block{
+	padding-bottom: 2rem;
+}
+
+
+/*student studentCard end*/
+/*student studentDetail start*/
+
+.content_stuDet{
+	background-color: #FFFFFF;
+	padding-bottom: 2.3467rem;
+	margin-bottom: 0.64rem;
+	border-bottom: 1px solid #EEEEEE;
+}
+.content_stuDet .margin_btn_stuDetErol{
+	margin-top: 1.1734rem;
+}
+.content_stuDet .margin_btn2_stuDetErol{
+	margin-top: 2.3467rem;
+}
+.content_stuDet .margin_btn3_stuDetErol{
+	margin-top: 1.1733rem;
+}
+.collect_stuDet{
+	float: right;
+    width: 3.4734rem;
+    display: block;
+    margin-top: -1rem;
+    padding: 1rem 1.0667rem 1rem 1.5rem;
+}
+/*student studentDetail end*/
+/*student appraise start*/
+.information_appraise{
+	position: relative;
+	padding: 1.12rem 1.2rem 0rem 1.2rem;
+}
+.apprBar_appraise{
+	width: 100%;
+	/*min-height: 2.0267rem;*/
+	min-height: 1.0134rem;
+	height: auto;
+	margin-bottom: 1.0133rem;
+}
+.tickBox_appraise, .checkedBoxBox_appraise{
+	position: relative;
+	float: left;
+	width: 2.6667rem;
+	height: 1.0133rem;
+}
+.tickBox_appraise img{
+	float: right;
+	width: 0.74rem;
+	padding-top: 0.05rem;
+	margin-right: 0.8267rem;
+}
+.textBox_appraise{
+	float: right;
+	width: 14.9333rem;
+	height: auto;
+}
+.text_appraise{
+	height: auto;
+	line-height: 1.0133rem;
+	font-size: 0.6933rem;
+	color: #666;
+}
+.width_apprBar_appraise{
+	padding-right: 1.5rem;
+}
+.comment_appraise{
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	line-height: 1.2267rem;
+	color: #666666;
+	font-size: 0.6933rem;
+	text-align: center;
+	padding-top: 0.96rem;
+	padding-bottom: 2.08rem;
+}
+.title_appraise{
+	width: 100%;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #FF2D52;
+	padding-bottom: 1.0133rem;
+	text-align: center;
+}
+.title2_appraise{
+	width: 100%;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #FF2D52;
+	padding: 1.1733rem 0;
+	text-align: center;
+}
+.checkedBox_appraise{
+	position: absolute;
+    height: 0.8533rem;
+    left: 0.9333rem;
+    bottom: 2.5px;
+}
+.checked_appraise{
+	position: absolute;
+    height: 0.9128rem;
+    left: 0.9333rem;
+    bottom: 2.5px;
+}
+.hidden{
+	display: none;
+}
+.information_appraise .marginBtn_appraise{
+	margin: 2.3467rem auto;
+}
+
+/*student appraise end*/
+
+
+
+.button-red{
+	display: block;
+	width: 11.7333rem;
+	height: 2.3467rem;
+	background-color: #FF2D52;
+	font-size: 0.8rem;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 0.24rem;
+	letter-spacing: 0.08rem;
+}
+.button-red-short{
+	display: block;
+	width: 5.8667rem;
+	height: 2.3467rem;
+	background-color: #FF2D52;
+	font-size: 0.8rem;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 0.24rem;
+	letter-spacing: 0.08rem;
+}
+.button-white{
+	display: block;
+	width: 11.7333rem;
+	height: 2.3467rem;
+	background-color: #fff;
+	font-size: 0.8rem;
+	color: #FF2D52;
+	margin: 0 auto;
+	border: 1px solid #FF2D52;
+	border-radius: 0.24rem;
+	letter-spacing: 0.08rem;
+}
+.button-resume{
+	display: block;
+	width: 11.7333rem;
+	height: 2.3467rem;
+	background-color: #fff;
+	font-size: 0.8rem;
+	color: #999;
+	margin: 0 auto;
+	border: 1px solid #FF2D52;
+	border-radius: 0.24rem;
+	text-align: right;
+	padding-right: 0.6667rem;
+	background-image: url(../img/btn-resume.png);
+	background-repeat: no-repeat;
+	background-size: 1.4133rem;
+	background-position: 0.5867rem 0.4267rem;
+}
+
+.width_100{
+	width: 100%;
+}
+.width_452r{
+	width: 4.52rem;
+}
+.width_11r{
+	width: 11rem;
+}
+.height_oneScreen{
+	height: 29.5467rem;
+}
+.margin_23467r{
+	margin-bottom: 2.3467rem;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/*清除浮动*/
+.clearfix{*zoom:1;}  
+.clearfix:after{ 
+  content:"."; 
+  display:block; 
+  height:0; 
+  visibility:hidden; 
+  clear:both; 
+}

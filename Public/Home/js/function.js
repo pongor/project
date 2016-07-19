@@ -25,11 +25,7 @@ $(function(){
 			$('.tiptop table td').html('上传简历后HR才能联系你哦');
 		}
 	});
-	$('.UploadResume_btn').click(function(){
-		$('.Lookat_resume').css('display','block');
-		$('.Upload_resume').css('display','none');
-		$('.tiptop').css('display','none');
-	});
+	
 	$('.LookatResume_btn').click(function(){
 		$('.Lookat_resume').css('display','none');
 		$('.Upload_resume').css('display','block');
@@ -129,10 +125,7 @@ $(function(){
 	$('.acceptOffer').click(function(){
 		$('.popup').css('display','block');
 	});
-	$('.closeOffer').click(function(){
-		$('.popup').css('display','none');
-	});
-	
+
 
 });
 

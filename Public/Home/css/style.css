@@ -180,10 +180,22 @@ html,body{ width: 100%; height: 100%; }
 	overflow: hidden;
 	margin: 0 auto;
 }
-.head_header img{
+.head2_header{
+	position: relative;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 auto;
+}
+.head_header img, .imgHead_header{
 	width: 4rem;
 	height: 4rem;
 	border-radius: 4rem;
+}
+.enrollHead_header{
+	position: absolute;
+	right: 0.16rem;
+	bottom: 0rem;
+	height: 0.9067rem;
 }
 .name_header{
 	display: block;
@@ -194,7 +206,7 @@ html,body{ width: 100%; height: 100%; }
 	font-size: 0.8rem;
 	color: #222;
 }
-.intro_header{
+.intro_header, .intro2_header{
 	text-indent: 0.72rem;
 	width: 100%;
 	height: auto;
@@ -203,6 +215,10 @@ html,body{ width: 100%; height: 100%; }
 	font-size: 0.6933rem;
 	color: #999;
 	letter-spacing: 0.0133rem;
+}
+.intro2_header{
+	text-indent: 0rem;
+	text-align: center;
 }
 .tabBar_header{
 	width: 100%;
@@ -239,6 +255,10 @@ html,body{ width: 100%; height: 100%; }
 	position: relative;
 	padding: 1.1733rem 1.2rem;
 }
+.information_etp{
+	position: relative;
+	padding: 1.1733rem 1.2rem 0rem 1.2rem;
+}
 .Upload_resume{
 	
 }
@@ -258,7 +278,7 @@ html,body{ width: 100%; height: 100%; }
 	display: block;
 	height: 0.8267rem;
 	margin: 0 auto;
-	margin-bottom: 0.2133rem;
+	margin-bottom: 0.2667rem;
 }
 .textInfo{
 	height: 0.6933rem;
@@ -346,6 +366,28 @@ html,body{ width: 100%; height: 100%; }
 	border-radius: 0.24rem;
 	padding: 0.24rem 0.4rem;
 }
+.textareaBox2_edit{
+	position: relative;
+	width: 100%;
+	height: 5.92rem;
+	background-color: #f7f8f8;
+	border: 1px solid #b5b5b6;
+	border-radius: 0.24rem;
+	padding: 0.24rem 0.4rem;
+}
+.textareaBox2_edit textarea{
+    width: 100%;
+    height: 5.4rem;
+	resize: none;
+    outline: none;
+    padding: 0;
+    font-size: 0.6933rem;
+    line-height: 1.0666rem;
+    background: none;
+    border: none;
+    margin-top: 2px;
+    color: #666;
+}
 .textareaBox_edit textarea{
     width: 100%;
     height: 2.1333rem;
@@ -429,11 +471,14 @@ html,body{ width: 100%; height: 100%; }
 	display: block;
 	width: 4.34rem;
 	margin: 0 auto;
-	padding-top: 7.12rem;
-	padding-bottom: 1.3067rem;
+	padding-top: 5.2267rem;
+	padding-bottom: 0.88rem;
 }
 .main_editInPc button{
-	margin-top: 6.6533rem;
+	margin-top: 5.9467rem;
+}
+.main_editInPc .tipText{
+	line-height: 1.6rem;
 }
 
 
@@ -678,8 +723,24 @@ html,body{ width: 100%; height: 100%; }
 	margin-top: 9.0667rem;
 }
 .box_popup_offer{
+	width: 14.4rem;
 	height: 15.92rem;
 	margin-top: 5.9733rem;
+}
+.box_popup_studet{
+	width: 14.4rem;
+	height: 15.92rem;
+	margin-top: 5.9733rem;
+}
+.box2_popup_studet{
+	width: 14.4rem;
+	height: 17.6rem;
+	margin-top: 5.9733rem;
+}
+.box3_popup_studet{
+	width: 14.4rem;
+	height: 12.48rem;
+	margin-top: 8.5867rem;
 }
 .tiltle_code_popup{
 	padding-top: 2.2933rem;
@@ -732,15 +793,256 @@ html,body{ width: 100%; height: 100%; }
     margin: 0 auto;
     margin-top: 1.4rem;
 }	
-
+.text_popup_studet{
+	margin-top: 1.3333rem;
+}
+.text2_popup_studet{
+	margin-top: 0.8533rem;
+    margin-bottom: 2.24rem;
+}
+.text3_popup_studet{
+	margin-top: 0.4267rem;
+}
 
 /*student popup end*/
-/*student editInPC start*/
+/*student studentCard start*/
+.content_myStu{
+	padding-top: 0.1px;
+}
+.studentCard{
+	width: 18.9333rem;
+	margin: 0.53333rem;
+	padding: 0 0.6133rem;
+	background-color: #FFFFFF;
+	border: 1px solid #B5B5B6;
+	border-radius: 0.3495rem;
+}
+.studentCard header{
+	width: 100%;
+	height: 1.76rem;
+	border-bottom: 1px solid #cdcecd;
+	padding: 0 2px;
+}
+.name_studentCard{
+	float: left;
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	color: #222222;
+	padding-top: 0.56rem;
+}
+.collect_studentCard{
+	float: right;
+	display: block;
+	height: 1.7067rem;
+	margin-right: -0.6133rem;
+    padding: 0.5067rem 0.6133rem 0.3733rem 0.8rem;
+}
+.studentCard section{
+	height: 5.44rem;
+}
+.headBox_studentCard{
+	position: relative;
+	float: left;
+	width: 3.46rem;
+	height: 3.46rem;
+	margin: 1.0133rem 0.7467rem 0 0.2667rem;
+	overflow: hidden;
+}
+.head_studentCard{
+	display: block;
+	height: 3.46rem;
+	border-radius: 3.46rem;
+}
+.enroll_studentCard{
+	position: absolute;
+	right: 0;
+	bottom: 0.16rem;
+	height: 0.9067rem;
+}
+.info_studentCard{
+	float: left;
+	width: 13.0667rem;
+	padding-top: 1.7333rem;
+}
+.info_studentCard p{
+	width: 100%;
+	height: 1.3333rem;
+	line-height: 0.8rem;
+	color: #666666;
+	font-size: 0.8rem;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.info_studentCard p span{
+	margin-top: -2px;
+    padding-top: -2px;
+    font-size: 0.8rem;
+    position: relative;
+    top: -1px;
+}
+.studentCard footer{
+	height: 2.3467rem;
+	border-top: 1px solid #CDCECD;
+}
+.red_studentCard, .green_studentCard, .gray_studentCard{
+	float: right;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	padding-top: 0.72rem;
+}
+.red_studentCard{
+	color: #FF2D52;
+}
+.green_studentCard{
+	color: #6eb6b3;
+}
+.gray_studentCard{
+	color: #888888;
+}
 
-/*student editInPC end*/
-/*student editInPC start*/
+.tab_header{
+	width: 6.6934rem;
+	margin: 0 1.6533rem;
+	padding: 0.7467rem 0 0.72rem 0;
+	line-height: 0.8rem;
+	font-size: 0.8rem;
+	color: #888;
+	text-align: center;
+	letter-spacing: 0.0133rem;
+}
+.checkedTab_header{
+	color: #666;
+	border-bottom: 2px solid #FF2D52;
+}
 
-/*student editInPC end*/
+.tabBar_stuList{
+	width: 100%;
+	height: 2.2933rem;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+	display: -webkit-box;
+    display: -moz-box;
+    display: box;
+}
+.allStu-block, .collectStu-block{
+	padding-bottom: 2rem;
+}
+
+
+/*student studentCard end*/
+/*student studentDetail start*/
+
+.content_stuDet{
+	background-color: #FFFFFF;
+	padding-bottom: 2.3467rem;
+	margin-bottom: 0.64rem;
+	border-bottom: 1px solid #EEEEEE;
+}
+.content_stuDet .margin_btn_stuDetErol{
+	margin-top: 1.1734rem;
+}
+.content_stuDet .margin_btn2_stuDetErol{
+	margin-top: 2.3467rem;
+}
+.content_stuDet .margin_btn3_stuDetErol{
+	margin-top: 1.1733rem;
+}
+.collect_stuDet{
+	float: right;
+    width: 3.4734rem;
+    display: block;
+    margin-top: -1rem;
+    padding: 1rem 1.0667rem 1rem 1.5rem;
+}
+/*student studentDetail end*/
+/*student appraise start*/
+.information_appraise{
+	position: relative;
+	padding: 1.12rem 1.2rem 0rem 1.2rem;
+}
+.apprBar_appraise{
+	width: 100%;
+	/*min-height: 2.0267rem;*/
+	min-height: 1.0134rem;
+	height: auto;
+	margin-bottom: 1.0133rem;
+}
+.tickBox_appraise, .checkedBoxBox_appraise{
+	position: relative;
+	float: left;
+	width: 2.6667rem;
+	height: 1.0133rem;
+}
+.tickBox_appraise img{
+	float: right;
+	width: 0.74rem;
+	padding-top: 0.05rem;
+	margin-right: 0.8267rem;
+}
+.textBox_appraise{
+	float: right;
+	width: 14.9333rem;
+	height: auto;
+}
+.text_appraise{
+	height: auto;
+	line-height: 1.0133rem;
+	font-size: 0.6933rem;
+	color: #666;
+}
+.width_apprBar_appraise{
+	padding-right: 1.5rem;
+}
+.comment_appraise{
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+	line-height: 1.2267rem;
+	color: #666666;
+	font-size: 0.6933rem;
+	text-align: center;
+	padding-top: 0.96rem;
+	padding-bottom: 2.08rem;
+}
+.title_appraise{
+	width: 100%;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #FF2D52;
+	padding-bottom: 1.0133rem;
+	text-align: center;
+}
+.title2_appraise{
+	width: 100%;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #FF2D52;
+	padding: 1.1733rem 0;
+	text-align: center;
+}
+.checkedBox_appraise{
+	position: absolute;
+    height: 0.8533rem;
+    left: 0.9333rem;
+    bottom: 2.5px;
+}
+.checked_appraise{
+	position: absolute;
+    height: 0.9128rem;
+    left: 0.9333rem;
+    bottom: 2.5px;
+}
+.hidden{
+	display: none;
+}
+.information_appraise .marginBtn_appraise{
+	margin: 2.3467rem auto;
+}
+
+/*student appraise end*/
+
+
 
 .button-red{
 	display: block;
@@ -782,7 +1084,7 @@ html,body{ width: 100%; height: 100%; }
 	height: 2.3467rem;
 	background-color: #fff;
 	font-size: 0.8rem;
-	color: #FF2D52;
+	color: #999;
 	margin: 0 auto;
 	border: 1px solid #FF2D52;
 	border-radius: 0.24rem;
