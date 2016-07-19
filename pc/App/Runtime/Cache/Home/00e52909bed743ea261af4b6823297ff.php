@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>实习独立说</title>
-		<link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css" />
-		<link rel="stylesheet" href="__PUBLIC__/Home/css/style.css" />
-		<script type="text/javascript" src="__PUBLIC__/Home/js/jquery1.9.1.js"></script>
-		<script type="text/javascript" src="__PUBLIC__/Home/js/function.js"></script>
+		<link rel="stylesheet" href="/Public/Home/css/reset.css" />
+		<link rel="stylesheet" href="/Public/Home/css/style.css" />
+		<script type="text/javascript" src="/Public/Home/js/jquery1.9.1.js"></script>
+		<script type="text/javascript" src="/Public/Home/js/function.js"></script>
 	</head>
 	<body>
 		<div class="wrap">
 			<div class="codeBox">
-				<img class="logo_code" src="__PUBLIC__/Home/img/Logo.png" />
+				<img class="logo_code" src="/Public/Home/img/Logo.png" />
 				<div class="inputBox_code marginTop_code">
 					<span>手机号</span>
 					<input class="input_code long" type="tel" maxlength="11" id="phone" />
@@ -22,7 +22,7 @@
 					<button id="mobile" class="btnShort_code on">发送验证码</button>
 				</div>
 				<div class="tipBox_code">
-					<p style="display: none;"><img src="__PUBLIC__/Home/img/icon-tip.png" /><span>您的验证码填写错误</span></p>
+					<p style="display: none;"><img src="/Public/Home/img/icon-tip.png" /><span>您的验证码填写错误</span></p>
 				</div>
 				<button class="btnLang_code" id="submit_btn">确认登录</button>
 			</div>
@@ -59,7 +59,7 @@
 				   return false; 
 			   }else{
 					 $.ajax({
-							url:'{:U("Home/Login/sendcode")}',
+							url:'<?php echo U("Home/Index/sendcode");?>',
 							type:'post',
 							data:{'mobile':mobile},
 							aysnc:true,
@@ -149,7 +149,7 @@
 			   }
 			
 			 $.ajax({
-					url:'{:U("Home/Login/login")}',
+					url:'<?php echo U("Home/Index/login");?>',
 					type:'post',
 					data:{'phone':phone,'code':code},
 					success: function(data) {

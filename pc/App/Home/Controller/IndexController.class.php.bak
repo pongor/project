@@ -1,8 +1,8 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class LoginController extends Controller {
-    public function login(){
+class IndexController extends Controller {
+    public function index(){
 		
        if(!I('post.')){
        	   $this->display();
