@@ -15,7 +15,7 @@ class AutuController extends Controller
     public function __construct()
     {
         parent::__construct();
-        $this->user_id = 1;//session('user_id');
+        $this->user_id = session('user_id');
         if($this->user_id <= 0){
             redirect(U('Login/index')); return;
         }

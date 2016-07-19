@@ -61,13 +61,13 @@
                             <!--选中-->
                             <img class="checked_appraise" src="/project/Public/Backend/img/btn-checked.png" />
 
-                            <input type="checkbox" value="<?php echo ($r["id"]); ?>" name="blem[]"  style="display: block;" checked>
+                            <input type="checkbox" value="<?php echo ($r["id"]); ?>" name="blem[]"  style="display: none;" checked>
                             <?php }else{ ?>
                             <img class="checkedBox_appraise" src="/project/Public/Backend/img/btn-checkedBox.png" />
                             <!--选中-->
                             <img class="checked_appraise hidden" src="/project/Public/Backend/img/btn-checked.png" />
 
-                            <input type="checkbox" value="<?php echo ($r["id"]); ?>" name="blem[]"  style="display: block;" >
+                            <input type="checkbox" value="<?php echo ($r["id"]); ?>" name="blem[]"  style="display: none;" >
                             <?php } ?>
                         </div>
                         <div class="textBox_appraise width_apprBar_appraise">

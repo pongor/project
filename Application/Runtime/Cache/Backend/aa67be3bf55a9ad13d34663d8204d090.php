@@ -38,7 +38,7 @@
 						<div class="QRcodeBox_header">
 						</div>
 						<!--头像-->
-						<div class="head_header"><img src="<?php echo ($data["headimgurl"]); ?>" /></div>
+						<div class="head_header"><img src="<?php echo ($data["headimgurl"]); ?>"  onclick="$('#sdd').click()"/><input type="file" name="sdsd" id="sdd" style="display: none"></div>
 						<!--名字-->
 						<span class="name_header"><?php echo ($data["nickname"]); ?></span>
 						<!--简介／描述-->
