@@ -18,7 +18,6 @@ class PersonnelController extends AutuController
        $sql = "select u.* from house as h left JOIN  users as u on u.id = h.user_id WHERE h.company_id = $this->user_id order by h.at_time desc";
         $model = D('Problem');
         $r = $model->getSql($sql); //收藏
-
         $this->assign('user_id',$this->user_id);
         $this->assign('ress',$r);
         $this->display();
@@ -44,7 +43,6 @@ class PersonnelController extends AutuController
             $del = 1;
             $r = $model->getInsert($data);
         }
-
         if($r){
             echo json_encode(array('error' => 0,'msg' => '添加删除成功','del'=>$del));die;
         }else{
@@ -59,7 +57,6 @@ class PersonnelController extends AutuController
         $this->assign('data',$data);
         $this->assign('id',$this->user_id);
         $this->display();
-
     }
     //验证企业信息是否完善
     public function offer(){
