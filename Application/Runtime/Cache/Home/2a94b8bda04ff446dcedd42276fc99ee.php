@@ -14,16 +14,16 @@
 		<div class="wrap">
 			<!--导航栏-->
 			<nav class="nav">
-				<div class="bg_nav"></div>
-				<a href="offer_stu.html"><div class="tab_nav">
-					<img class="imgPractice_nav" src="/project/Public/Home/img/icon-practice.png" />
-					<span class="text_nav">实习</span>
-				</div></a>
-				<a href="home_stu.html"><div class="tab_nav">
-					<div class="boxMy_nav"><img class="imgMy_nav" src="<?php echo ($data["headimgurl"]); ?>" /></div>
-					<span class="boxMytext_nav textChecked_nav">我的</span>
-				</div></a>
-			</nav>
+    <div class="bg_nav"></div>
+    <a href="<?php echo U('Offer/index');?>"><div class="tab_nav">
+        <img class="imgPractice_nav" src="/project/Public/Home/img/icon-practiceChecked.png" />
+        <span class="textChecked_nav">实习</span>
+    </div></a>
+    <a href="<?php echo U('Index/index');?>"><div class="tab_nav">
+        <div class="boxMy2_nav"><img class="imgMy_nav" src="/project/Public/Home/img/icon-head3.jpg" /></div>
+        <span class="boxMytext_nav text_nav">我的</span>
+    </div></a>
+</nav>
 			<!--页面内容-->
 			<section class="content">
 				<!--顶部提示栏-->
@@ -109,21 +109,25 @@
 						<!--简历部分-->
 						<div class="resume myResume-block" style="display: none;">
 							<!--未上传-->
+							<?php if($data['resume'] == ''){ ?>
 							<div class="Upload_resume">
 								<img src="/project/Public/Home/img/icon-UploadResume.png" />
 								<button class="button-red UploadResume_btn">上传我的简历</button>
 							</div>
+							<?php }else{ ?>
 							<!--已上传-->
+
 							<div class="Lookat_resume" style="display: none;">
 								<button class="button-resume margin_23467r LookatResume_btn">刘水音简历.PDF</button>
 								<button class="button-red" onclick="window.location.href='uploadInPC_stu.html'">重新上传简历</button>
 							</div>
+							<?php } ?>
 						</div>
 					</section>
 					</form>
 				</div>
 			</section>
-			<div class="popup" <?php if(session('code')){ ?> style="display:none" <?php } ?> >
+			<div class="popup" <?php if($data['is_check'] == 1){ ?> style="display:none" <?php } ?> >
 				<div class="bg_popup"></div>
 				<div class="box_popup box_popup_editInfo">
 					<p class="tiltle_code_popup">请输入官方验证码</p>

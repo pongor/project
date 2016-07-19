@@ -3,7 +3,9 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends AutuController {
     public function index(){ //103e688b8013ae4e53ecb3b67ae81e33
-
+        //获取学生详情100
+        $data = D('Users')->getInfo(array('id'=>$this->user_id));
+        $this->assign('data',$data);
         $this->display('home');
     }
     public function checkCode(){
@@ -13,6 +15,7 @@ class IndexController extends AutuController {
         $result = $model->getInfo("code = '{$code}' and status = 1");
         if($result) {
             $model->getUpdate(array('id'=>$result['id']),array('status'=>0));
+            D('Users')->getUpdate(array('id'=>$this->id),array('is_check' => 1));
             session('code',1,31536000);
             echo json_encode(array('error'=>0,'msg'=>'验证成功'));die;
         }else{
@@ -39,11 +42,15 @@ class IndexController extends AutuController {
         }
     }
     public function home(){
-
         $model = D('Users');
         $data = $model->getInfo(array('id'=>$this->user_id));
 
         $this->assign('data',$data);
         $this->display('index');
+    }
+    //公众号
+    public function qrcode(){
+
+        $this->display();
     }
 }

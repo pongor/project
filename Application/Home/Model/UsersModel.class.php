@@ -22,5 +22,4 @@ class UsersModel extends \Think\Model
     public function getUpdate($where,$data){
         return $this->where($where)->save($data);
     }
-
 }
