@@ -38,7 +38,7 @@ class IndexController extends Controller {
 		
     }
 	public function sendcode(){
-		if(!$_POST){
+		if(!I('post.')){
 			exit('无有效提交数据');
 		}
 	    session('code',null);
