@@ -2,51 +2,6 @@
 /**
  * Created by PhpStorm.
  * User: pongor
-<<<<<<< HEAD
- * Date: 16/3/24
- * Time: 18:24
- */
-namespace Home\Controller;
-use Think\Controller;
-use Think\Vender;
-class WechatController extends Controller {
-    public function __construct(){
-        parent::__construct();
-    }
-    public function index($url=''){
-        $url = $url ? $url : I('get.url');
-        $data = S('wx_cache');
-        if($data){
-            $r = self::getSignPackage($data['ticket'],$url);
-            return array('error'=>0,'data'=>$r,'ticket'=>$data['ticket'],'cache'=>1);
-        }else{
-            $result = self::getTokenApi();
-            $titck = self::getTicket($result['access_token']);
-            $result['ticket'] = $titck['ticket'];
-            S('wx_cache',$result,array('type'=>'file','expire'=>7000));
-            $r = self::getSignPackage($titck['ticket'],$url);
-            return array('error'=>0,'data'=>$r,'ticket'=>$titck['ticket'],'get'=>1);die;
-        }
-    }
-    public static function getSignPackage($jsapiTicket,$url) {
-        $timestamp = time();
-        $nonceStr = self::createNonceStr();
-        // ÕâÀï²ÎÊýµÄË³ÐòÒª°´ÕÕ key Öµ ASCII ÂëÉýÐòÅÅÐò
-        $string = "jsapi_ticket=$jsapiTicket&noncestr=$nonceStr&timestamp=$timestamp&url=$url";
-        $signature = sha1($string);
-        $signPackage = array(
-            "appid"     => C('appid'),
-            "noncestr"  => $nonceStr,
-            "timestamp" => $timestamp,
-            "url"       => $url,
-            "signature" => $signature,
-            "rawstring" => $string
-        );
-        return $signPackage;
-    }
-    //Ëæ»ú×Ö·û´®
-    private static function createNonceStr($length = 16) {
-=======
  * Date: 2016/7/28
  * Time: 9:01
  */
@@ -71,7 +26,7 @@ class WechatController extends Controller
     }
 
     public function index($url='') {
-        $jsapiTicket = $this->getJsApiTicket();
+        $jsapiTicket = $this->getJsApiTicket($this->getAccessToken());
 
         // æ³¨æ„ URL ä¸€å®šè¦åŠ¨æ€èŽ·å–ï¼Œä¸èƒ½ hardcode.
         $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
@@ -97,7 +52,6 @@ class WechatController extends Controller
     }
 
     private function createNonceStr($length = 16) {
->>>>>>> 1fc87fb362964ef767bee1afabf3dd5996c70902
         $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         $str = "";
         for ($i = 0; $i < $length; $i++) {
@@ -105,57 +59,18 @@ class WechatController extends Controller
         }
         return $str;
     }
-<<<<<<< HEAD
-    //»ñÈ¡jsapi_ticket
-    public static function getTicket($token,$type='jsapi'){
-        $url = C('jsapi_ticket');
-        $result = file_get_contents($url.'?access_token='.$token.'&type='.$type);
-        return json_decode($result,true);
-    }
-    //·¢ËÍgetÇëÇó»ñÈ¡Î¢ÐÅtoken
-    public static function getTokenApi($s = false){
-      //  $url = C('weixinAccess_token');// 'http://message.api.mtedu.com/wx/accesstoken/apptoken?only_id=gh_d1272deec0bd';// C('weixinAccess_token');
-        $data = S('access_token');
-        if($data && $s == false){
-            return $data;
-        }
-        $url = C('weixinAccess_token');
-        $res = file_get_contents($url);
-        $data = json_decode($res,true);
-        if(isset($data['access_token'])){
-            S('access_token',$data,60);
-            return $data;
-        }
-        S('access_token',null);
-        return $data;
-//        $json = file_get_contents($url);
-//        if($json){
-//            return json_decode($json,true);
-//
-//        }else{
-//            return false;
-//        }
-    }
-    public function access_token(){
-        $sign = I('get.sign');
-        $s = I('get.s') ? I('get.s') : false;
-        if($sign == 'xksdsidiosdoisdasd'){
-            echo json_encode(self::getTokenApi($s));
-        }else{
-            die;
-        }
-=======
 
     private function getJsApiTicket($token,$type='jsapi') {
         // jsapi_ticket åº”è¯¥å…¨å±€å­˜å‚¨ä¸Žæ›´æ–°ï¼Œä»¥ä¸‹ä»£ç ä»¥å†™å…¥åˆ°æ–‡ä»¶ä¸­åšç¤ºä¾‹
         $url = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket';
         $result = file_get_contents($url.'?access_token='.$token.'&type='.$type);
-        return json_decode($result,true);
+        $data =  json_decode($result,true);
+        return isset($data['ticket']) ? $data['ticket'] : '1';
     }
 
     private function getAccessToken() {
         $data = get_access();
-        $access_token = $data->access_token;
+        $access_token = $data['access_token'];
         return $access_token;
     }
 
@@ -182,6 +97,5 @@ class WechatController extends Controller
         $fp = fopen($filename, "w");
         fwrite($fp, "<?php exit();?>" . $content);
         fclose($fp);
->>>>>>> 1fc87fb362964ef767bee1afabf3dd5996c70902
     }
 }
