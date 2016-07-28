@@ -75,7 +75,7 @@ function page($model,$where,$limit=0,$parameter=array(),$field = 'p',$current = 
  */
 function get_access(){
     $data = S('access_toke');
-    S('access_toke',null);
+   
     if($data){
         return $data;
     }else{
