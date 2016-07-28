@@ -2,9 +2,10 @@
 <script>
     <?php $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
     $token = share($url);
+    var_dump($token); echo $token['appid'];
     ?>
 
-    $(document).ready(function(){ 
+    $(document).ready(function(){ return;
         /***********微信分享 start*************/
         var dataWechat = '';
         var urlStart = location.href.split('#')[0];
