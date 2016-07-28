@@ -70,8 +70,13 @@
 							<p class="textInfo"><?php echo ($data["major"]); ?></p>
 							<img class="iconInfo" src="/Public/Home/img/icon-info-coordinates.png" style="display:<?php if($data['address']){echo 'block';}else{echo 'none';}?>" />
                 			<p class="textInfo"  style="display:<?php if($data['address']){echo 'block';}else{echo 'none';}?>" ><?php echo ($data["address"]); ?></p>
-							<img class="iconInfo" src="/Public/Home/img/icon-info-time.png" />
+
+							<img class="iconInfo" src="/Public/Home/img/icon-info-time.png" style="display:<?php if($data['weektime']){echo 'block';}else{echo 'none';}?>" />
+                			<p class="textInfo"  style="display:<?php if($data['weektime']){echo 'block';}else{echo 'none';}?>" >一周可工作 <?php echo ($data["weektime"]); ?></p>
+
+							<img class="iconInfo" src="/Public/Home/img/calendar.png" />
 							<p class="textInfo noMargin">可实习时间 <?php echo ($data["intern"]); ?>-<?php echo ($data["enddate"]); ?></p>
+
 						</div>
 						<!--简历部分-->
 						<div class="resume myResume-block" style="display: none;">

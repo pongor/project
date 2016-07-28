@@ -48,8 +48,13 @@
 							<p class="textInfo">{$data.major}</p>
 							<img class="iconInfo" src="__IMG__/icon-info-coordinates.png" style="display:<?php if($data['address']){echo 'block';}else{echo 'none';}?>" />
                 			<p class="textInfo"  style="display:<?php if($data['address']){echo 'block';}else{echo 'none';}?>" >{$data.address}</p>
-							<img class="iconInfo" src="__IMG__/icon-info-time.png" />
+
+							<img class="iconInfo" src="__IMG__/icon-info-time.png" style="display:<?php if($data['weektime']){echo 'block';}else{echo 'none';}?>" />
+                			<p class="textInfo"  style="display:<?php if($data['weektime']){echo 'block';}else{echo 'none';}?>" >一周可工作 {$data.weektime}</p>
+
+							<img class="iconInfo" src="__IMG__/calendar.png" />
 							<p class="textInfo noMargin">可实习时间 {$data.intern}-{$data.enddate}</p>
+
 						</div>
 						<!--简历部分-->
 						<div class="resume myResume-block" style="display: none;">

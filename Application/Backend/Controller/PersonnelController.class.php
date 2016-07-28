@@ -43,6 +43,14 @@ class PersonnelController extends AutuController
              }else{
                 $r[$key]['user_status']=0 ;
              }
+
+             $time=time();
+             $intern=(int)str_replace(".","",$value['intern']);
+             $intern=strtotime($intern ."23:59:59");
+
+
+
+            $r[$key]['intern']=($time >= $intern) ? '即刻' : $value['intern'] ;
          }
         }
         $this->assign('list',$r);
@@ -58,6 +66,7 @@ class PersonnelController extends AutuController
         $this->assign('user_id',$this->user_id);
         //$this->assign('ress',$r);
         //dump($r);//die;
+        
         $this->assign('title','棒棒的实习生推荐');
         $this->assign('desc','独立说为您诚意推荐通过考核的实习生，好用！');
         $this->display('studentList_etp');
@@ -121,8 +130,12 @@ class PersonnelController extends AutuController
         $selfimg=M("Company")->where('id='.$this->user_id)->getField('headimgurl');
         $this->assign('selfimg',$selfimg);
         $this->assign('id',$this->user_id);
-        $this->assign('title','叶艳丽｜北京｜一周可工作五天');
-        $this->assign('image','');
+        $weektime=$data['weektime'] ? '| 一周可工作 '.$data['weektime'] : '';
+        $image=$data['headimg'] ? $data['headimg'] :$data['headimgurl'] ;
+        //$this->assign('title','叶艳丽｜北京｜一周可工作五天');
+        
+        $this->assign('title',$data['name'].'｜'.$data['address'].$weektime);
+        $this->assign('image',$image);
         $this->assign('desc','独立说为您诚意推荐通过考核的实习生，好用！');
         //dump($data);
         $this->display();
@@ -353,7 +366,7 @@ class PersonnelController extends AutuController
         readfile($file);
     }
 
-    function get_device_type()
+    public function get_device_type()
         {
          //全部变成小写字母
          $agent = strtolower($_SERVER['HTTP_USER_AGENT']);
