@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="936260b2-0a52-432f-8191-8d100405f84e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload/headerimg/backend/10.JPG" afterPath="$PROJECT_DIR$/upload/headerimg/backend/10.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Backend/View/Public/footer.html" afterPath="$PROJECT_DIR$/Application/Backend/View/Public/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Backend/16_07_28.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Backend/16_07_28.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Temp/ba43f9b9e7255c428143a3ff9938d557.php" afterPath="$PROJECT_DIR$/Application/Runtime/Temp/ba43f9b9e7255c428143a3ff9938d557.php" />
     </list>
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
