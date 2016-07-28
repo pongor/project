@@ -90,7 +90,17 @@ function get_access(){
         }
     }
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+/*
+ * 分享
+ */
+function share($url=''){
+    $obj = A('Wechat');
+    return $obj->index($url);
+}
+>>>>>>> 1fc87fb362964ef767bee1afabf3dd5996c70902
