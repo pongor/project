@@ -1708,3 +1708,41 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
 
+[ 2016-07-28T11:46:55+08:00 ] 127.0.0.1 /project/Backend/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Wechat
+
+[ 2016-07-28T11:47:07+08:00 ] 127.0.0.1 /project/Backend/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 466 bytes D:\web\project\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 104 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T11:47:27+08:00 ] 127.0.0.1 /project/Backend/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Backend\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Backend\Controller\WechatController.class.php 第 19 行.
+ERR: Think\Controller:index方法不存在！
+
