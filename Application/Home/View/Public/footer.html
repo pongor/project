@@ -2,7 +2,6 @@
 <script>
     <?php $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
     $token = share($url);
-    var_dump($token); echo $token['appid'];
     ?>
 
     $(document).ready(function(){ return;
@@ -12,9 +11,9 @@
         //设置微信分享内容
         wx.config({
             debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-            appId: '{$token.appid}',  //dataWechat.appid, // 必填，公众号的唯一标识
+            appId: '{$token.appId}',  //dataWechat.appid, // 必填，公众号的唯一标识
             timestamp: '{$token.timestamp}',  //dataWechat.timestamp, // 必填，生成签名的时间戳
-            nonceStr: '{$token.noncestr}',  //dataWechat.noncestr, // 必填，生成签名的随机串
+            nonceStr: '{$token.nonceStr}',  //dataWechat.noncestr, // 必填，生成签名的随机串
             signature: '{$token.signature}',  //dataWechat.signature,// 必填，签名，见附录1
             jsApiList: ['chooseWXPay', 'onMenuShareTimeline', 'onMenuShareAppMessage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
         });
