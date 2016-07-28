@@ -1278,3 +1278,39 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
 >>>>>>> Stashed changes
+[ 2016-07-28T11:49:28+08:00 ] 220.194.42.66 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: title /alidata/www/project/Application/Runtime/Cache/Home/39b332e5f8883cb2938d6d989e0f6c27.php 第 173 行.
+NOTIC: [8] Undefined variable: title /alidata/www/project/Application/Runtime/Cache/Home/39b332e5f8883cb2938d6d989e0f6c27.php 第 185 行.
+NOTIC: [8] Undefined variable: desc /alidata/www/project/Application/Runtime/Cache/Home/39b332e5f8883cb2938d6d989e0f6c27.php 第 186 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.268892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-07-28T11:55:05+08:00 ] 66.249.65.172 /Product/productDetail/id/188.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载控制器:Product
+
