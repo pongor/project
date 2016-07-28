@@ -4275,3 +4275,57 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
 ERR: 无法加载控制器:Product
 
+[ 2016-07-28T17:42:53+08:00 ] 220.194.42.66 /Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 681 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 681 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2016-07-28T17:42:59+08:00 ] 220.194.42.66 /Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 681 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 681 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2016-07-28T17:43:05+08:00 ] 220.194.42.66 /Wechat/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 681 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 681 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in /alidata/www/project/ThinkPHP/Common/functions.php on line 703 and defined /alidata/www/project/Application/Home/Controller/WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2016-07-28T17:48:22+08:00 ] 66.249.65.175 /Product/productDetail/id/218.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载控制器:Product
+
