@@ -58,6 +58,8 @@ class PersonnelController extends AutuController
         $this->assign('user_id',$this->user_id);
         //$this->assign('ress',$r);
         //dump($r);//die;
+        $this->assign('title','棒棒的实习生推荐');
+        $this->assign('desc','独立说为您诚意推荐通过考核的实习生，好用！');
         $this->display('studentList_etp');
     }
     //收藏处理
@@ -119,6 +121,9 @@ class PersonnelController extends AutuController
         $selfimg=M("Company")->where('id='.$this->user_id)->getField('headimgurl');
         $this->assign('selfimg',$selfimg);
         $this->assign('id',$this->user_id);
+        $this->assign('title','叶艳丽｜北京｜一周可工作五天');
+        $this->assign('image','');
+        $this->assign('desc','独立说为您诚意推荐通过考核的实习生，好用！');
         //dump($data);
         $this->display();
     }
