@@ -75,6 +75,7 @@ function page($model,$where,$limit=0,$parameter=array(),$field = 'p',$current = 
  */
 function get_access(){
     $data = S('access_toke');
+    S('access_toke',null);
     if($data){
         return $data;
     }else{
@@ -83,7 +84,7 @@ function get_access(){
         $result = file_get_contents($url);
         $data = json_decode($result,true);
         if($data){
-            S('access_toke',$data);
+            S('access_toke',$data,7000);
             return $data;
         }else{
             return false;

@@ -4275,6 +4275,7 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
 ERR: 无法加载控制器:Product
 
+<<<<<<< HEAD
 [ 2016-07-28T17:42:53+08:00 ] 220.194.42.66 /Wechat/test
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
@@ -4328,4 +4329,126 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
 ERR: 无法加载控制器:Product
+=======
+[ 2016-07-28T17:47:03+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:47:09+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:47:28+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T17:47:59+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:49:03+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T17:49:06+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T17:49:23+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T17:49:35+08:00 ] 192.168.1.75 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/ba43f9b9e7255c428143a3ff9938d557.php): No such file or directory D:\web\project\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+>>>>>>> e9db81fd3ec99442db8129b13b3cae7da37158e6
 
