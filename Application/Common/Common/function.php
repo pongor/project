@@ -90,3 +90,10 @@ function get_access(){
         }
     }
 }
+/*
+ * 分享
+ */
+function share($url=''){
+    $obj = A('Wechat');
+    return $obj->index($url);
+}

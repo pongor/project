@@ -1,0 +1,105 @@
+[ 2016-07-28T09:12:08+08:00 ] 127.0.0.1 /project/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] file_get_contents(jsapi_ticket.php): failed to open stream: No such file or directory D:\web\project\Application\Home\Controller\WechatController.class.php 第 105 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 0 of 200 bytes D:\web\project\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 104 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 84 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\web\project\Application\Home\Controller\WechatController.class.php 第 95 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:13:27+08:00 ] 127.0.0.1 /project/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] file_get_contents(jsapi_ticket.php): failed to open stream: No such file or directory D:\web\project\Application\Home\Controller\WechatController.class.php 第 105 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 84 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\web\project\Application\Home\Controller\WechatController.class.php 第 95 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:13:54+08:00 ] 127.0.0.1 /project/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] file_get_contents(jsapi_ticket.php): failed to open stream: No such file or directory D:\web\project\Application\Home\Controller\WechatController.class.php 第 105 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 84 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\web\project\Application\Home\Controller\WechatController.class.php 第 95 行.
+NOTIC: [8] Trying to get property of non-object D:\web\project\Application\Home\Controller\WechatController.class.php 第 69 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:18:54+08:00 ] 127.0.0.1 /project/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::getJsApiTicket(), called in D:\web\project\Application\Home\Controller\WechatController.class.php on line 26 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: token D:\web\project\Application\Home\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Array to string conversion D:\web\project\Application\Home\Controller\WechatController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-28T09:19:32+08:00 ] 127.0.0.1 /project/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::getJsApiTicket(), called in D:\web\project\Application\Home\Controller\WechatController.class.php on line 29 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: token D:\web\project\Application\Home\Controller\WechatController.class.php 第 66 行.
+NOTIC: [8] Array to string conversion D:\web\project\Application\Home\Controller\WechatController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T09:19:37+08:00 ] 127.0.0.1 /project/Wechat/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 681 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\WechatController::__construct(), called in D:\web\project\ThinkPHP\Common\functions.php on line 703 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 19 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\WechatController::getJsApiTicket(), called in D:\web\project\Application\Home\Controller\WechatController.class.php on line 29 and defined D:\web\project\Application\Home\Controller\WechatController.class.php 第 63 行.
+NOTIC: [8] Undefined variable: token D:\web\project\Application\Home\Controller\WechatController.class.php 第 66 行.
+NOTIC: [8] Array to string conversion D:\web\project\Application\Home\Controller\WechatController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
