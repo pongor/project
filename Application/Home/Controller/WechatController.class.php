@@ -65,7 +65,6 @@ class WechatController extends Controller
         $url = 'https://api.weixin.qq.com/cgi-bin/ticket/getticket';
         $result = file_get_contents($url.'?access_token='.$token.'&type='.$type);
         $data =  json_decode($result,true);
-        var_dump($data);
         return isset($data['ticket']) ? $data['ticket'] : '1';
     }
 
