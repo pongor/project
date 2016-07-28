@@ -15,18 +15,18 @@ class StudentController extends Controller
 {
     public function index(){
 
-        $model = D('Student');
+        $model = D('Users');
         $p = intval(I('get.p'));
         $page = $p >0  ? ($p-1)*10 : 0;
         $data = $model ->getList('',$page,10);
 
-        $this->assign('page',page('Student','',10));
+        $this->assign('page',page('Users','',10));
         $this->assign('list',$data);
         $this->display();
     }
     public function detail(){
         $id = intval(I('get.id'));
-        $info = D('Student')->getInfo(array('id'=>$id));
+        $info = D('Users')->getInfo(array('id'=>$id));
         $Records = D('Records')->getList(array('student_id'=>$id));
         $this->assign('records',$Records);
         $this->assign('data',$info);
@@ -40,8 +40,8 @@ class StudentController extends Controller
         $id = intval(I('post.id'));
         $status = intval(I('post.status'));
 
-        $model = D('Student');
-        $res =  $model -> getUpdate(array('id'=>$id),array('status'=>$status));
+        $model = D('Users');
+        $res =  $model -> getUpdate(array('id'=>$id),array('show'=>$status));
         if($res){
             echo json_encode(array('error'=>0));die;
         }

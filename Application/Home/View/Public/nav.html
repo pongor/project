@@ -1,11 +1,11 @@
 <nav class="nav">
     <div class="bg_nav"></div>
-    <a href="{:U('Offer/index')}"><div class="tab_nav">
-        <img class="imgPractice_nav" src="__IMG__/icon-practiceChecked.png" />
-        <span class="textChecked_nav">实习</span>
+    <a href="{:U('Offer/index')}"><div class="tab_nav tab_on_nav">
+        <img class="imgPractice_nav" src="__IMG__/icon-practice.png" />
+        <span class="text_nav">实习</span>
     </div></a>
-    <a href="{:U('Index/index')}"><div class="tab_nav">
-        <div class="boxMy2_nav"><img class="imgMy_nav" src="__IMG__/icon-head3.jpg" /></div>
-        <span class="boxMytext_nav text_nav">我的</span>
+    <a href="{:U('Index/index')}"><div class="tab_nav tab_off_nav">
+        <div class="boxMy_nav"><img class="imgMy_nav" src="{$data['headimg']?$data['headimg']:$data['headimgurl']}" /></div>
+        <span class="boxMytext_nav  textChecked_nav">我的</span>
     </div></a>
 </nav>

@@ -14,13 +14,13 @@
 		<div class="wrap2">
 			<!--标题-->
 			<div class="title_send">
-				独说实习培训 | 简历上传
+				独立说实习培训 | 简历上传
 			</div>
 			<!--内容-->
 			<div class="section">
 				<p class="title">附件简历</p>
 				<!--已上传-->
-				<div class="alreadySend" style="display: none;">
+				<div class="alreadySend" style="display:<?php if($info['resume']){echo 'block';}else{echo 'none';} ?>">
 					<table>
 						<thead>
 							<tr>
@@ -34,15 +34,15 @@
 								<td class="tb1">
 									<img src="__PUBLIC__/Home/img/icon-resume.png" />
 									<div>
-										<p class="p1">2016刘同学简历2016刘同学简历.PDF</p>
-										<p class="p2">32k</p>
+										<p class="p1">{$info['pdfname']}.PDF</p>
+										<p class="p2">{$info['pdfsize']}K</p>
 									</div>
 								</td>
-								<td class="tb2"><p>2016.04.20.16:30</p></td>
+								<td class="tb2"><p>{$info['uptime']|date="Y-m-d",###}</p></td>
 								<td class="tb3">
 									<div>
-										<button class="button-red-short">更改</button>
-										<button class="button-white-short deleteBtn">删除</button>
+										<!-- <button type="button" class="button-red-short">更改</button> -->
+										<button type="button" class="button-white-short deleteBtn" style="margin-left:80px;">删除</button>
 									</div>
 								</td>
 							</tr>
@@ -51,7 +51,7 @@
 				</div>
 				<!--未上传-->
 				
-				<div class="noSend" style="display: block;">
+				<div class="noSend" style="display:<?php if($info['resume']){echo 'none';}else{echo 'block';} ?>">
 					<img src="__PUBLIC__/Home/img/icon-bg.png" />
 					<p>您还没有上传附件简历（最大可上传8M）<br />仅限PDF件格式</p>
 					<input type="file" style="display:none" id="file" name="file" multiple="multiple" onchange="upLoad('./upload/tmp/',this.id)"/>
@@ -72,12 +72,12 @@
 					</div>
 					<p class="text1_popup">确认删除该简历附件吗？</p>
 					<div class="buttonBox_popup">
-						<button class="button-white yes">确&nbsp;&nbsp;定</button>
-						<button class="button-red no">取&nbsp;&nbsp;消</button>
+						<button type="button" class="button-white yes" id="deleteyes">确&nbsp;&nbsp;定</button>
+						<button type="button" class="button-red no">取&nbsp;&nbsp;消</button>
 					</div>
 				</div>
 				<!--上传成功-->
-				<div class="box_popup success" style="display: none;">
+				<div class="box_popup success" id="success" style="display: none;">
 					<div class="title_popup">
 						<p>温馨提示</p>
 						<!--关闭-->
@@ -85,11 +85,12 @@
 					</div>
 					<p class="text2_popup">您的简历已上传成功<br />请返回手机中继续操作</p>
 					<div class="buttonBox2_popup">
-						<button class="button-red marginCenter yes">确&nbsp;&nbsp;定</button>
+						<!--<button class="button-red marginCenter yes">确&nbsp;&nbsp;定</button>-->
+						<button type="button" class="button-red marginCenter yes" id="showps">确&nbsp;&nbsp;定</button>
 					</div>
 				</div>
 				<!--上传失败-->
-				<div class="box_popup" style="display: none;">
+				<div class="box_popup" id="fail" style="display: none;">
 					<div class="title_popup">
 						<p>温馨提示</p>
 						<!--关闭-->
@@ -120,14 +121,16 @@
 			success: function (data)  //服务器成功响应处理函数
 			{
 				
-				
 				if(data == '1')
-				{
-					alert('上传成功');
+				{   
+				    //$('.noSend').css("display","none");
+				    $('.popup').css("display","block");
+					$('#success').css("display","block");
 				}
 				else
-				{
-                    alert('上传失败');
+				{    
+				     $('.popup').css("display","block");
+                     $('.fail').css("display","block");
 
 				}
 
@@ -139,5 +142,33 @@
 		});//这是ajax1结束Tags
 		//return false;
 	}
+
+	$("#showps").click(function(){
+		window.location.href="__APP__";
+	})
+
+	$("#deleteyes").click(function(){
+			 $.ajax({
+					url:'{:U("Post/delete")}',
+					type:'post',
+					
+					success: function(data) {
+							//alert(data);return false;
+							
+							if(data != '1' ){
+                                alert('删除简历失败');
+							}else{
+								//console.log(data);
+								//alert('success');
+								alert('删除简历成功');
+								window.location.href="__APP__";
+							}
+
+									
+					}
+			})  				
+	})
+
+	
 </script>
 </html>

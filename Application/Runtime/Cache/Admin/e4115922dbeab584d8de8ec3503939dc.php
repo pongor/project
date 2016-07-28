@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>导航栏</title>
-    <link rel="stylesheet" href="/project/Public/Admin/css/reset.css" />
-    <link rel="stylesheet" href="/project/Public/Admin/css/nav_man.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/reset.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/nav_man.css" />
 
-    <link rel="stylesheet" href="/project/Public/Admin/css/style_man.css" />
-    <script type="text/javascript" src="/project/Public/Admin/js/jquery2.1.4.min.js"></script>
-    <script type="text/javascript" src="/project/Public/Admin/js/function_man.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/style_man.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery2.1.4.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/function_man.js"></script>
 </head>
 	<body>
 		<div class="layout_wrap">

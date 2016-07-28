@@ -1,0 +1,26 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<nav class="nav">
+			    <div class="bg_nav"></div>
+			    <a href="{:U('Offer/index')}"><div class="tab_nav tab_on_nav">
+			        <img class="imgPractice_nav" src="__IMG__/icon-practiceChecked.png" />
+			        <span class="textChecked_nav">实习</span>
+			    </div></a>
+			    <a href="{:U('Index/index')}"><div class="tab_nav tab_off_nav">
+			        <div class="boxMy2_nav"><img class="imgMy_nav" src="{$data['headimg']?$data['headimg']:$data['headimgurl']}" /></div>
+			        <span class="boxMytext_nav text_nav">我的</span>
+			    </div></a>
+			</nav>
+			<!--页面内容-->
+			<div class="content">
+				<div class="height_oneScreen">
+					<div class="main_noInvitation">
+						<img src="__IMG__/icon-noInvitation.png" />
+						<p class="tipText">你还没有实习邀请哦！</p>
+						<p class="tipText">先去优化简历吧</p>
+					</div>
+				</div>
+			</div>
+		</div>
+<include file="Public:footer" />

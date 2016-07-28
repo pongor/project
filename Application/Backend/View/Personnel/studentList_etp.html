@@ -1,0 +1,94 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<nav class="nav">
+			    <div class="bg_nav"></div>
+			    <a href="{:U('Personnel/index')}"><div class="tab2_nav">
+			        <img class="imgPractice_nav" src="__IMG__/icon-talentChecked.png" />
+			        <span class="textChecked_nav">人才</span>
+			    </div></a>
+			    <a href="{:U('Personnel/student')}"><div class="tab2_nav">
+			        <img class="imgPractice_nav" src="__IMG__/icon-appraise.png" />
+			        <span class="text_nav">实习评价</span>
+			    </div></a>
+			    <a href="{:U('Index/index')}"><div class="tab2_nav">
+			        <div class="boxMy2_nav"><img class="imgMy_nav" src="{$info}" /></div>
+			        <span class="boxMytext_nav text_nav">我的</span>
+			    </div></a>
+			</nav>
+			<!--页面内容-->
+			<section class="content">
+				<!--tab-->
+				<div class="tabBar_stuList">
+					<div class="tab_header allStu checkedTab_header">全&nbsp;&nbsp;&nbsp;&nbsp;部</div>
+					<a href="{:U('Backend/Personnel/collect')}"><div class="tab_header collectStu">已&nbsp;收&nbsp;藏</div></a>
+				</div>
+				<!--内容-->
+				<div>
+					<!--全部学生-->
+					
+					<div class="allStu-block">
+
+						<volist id="data" name="list">
+						<!--学生卡片-->
+						<div class="studentCard">
+							<header>
+								<!--姓名-->
+								<p class="name_studentCard">{$data.name}</p>
+								<?php $house = D('House');
+								 $r =  $house ->getInfo(array('company_id' => $user_id,'user_id' => $data['id']));
+								  ?>
+								<img class="collect_studentCard uncollect" id="uncollect_{$data.id}" src="<?php echo $r ? '__IMG__/btn-collect.png' : '__IMG__/btn-uncollect.png'; ?>" onclick="add({$data.id})"/>
+							</header>
+							<!--跳转链接-->
+							<a href="{:U('Personnel/detail',array('id'=>$data['id']))}"><section>
+								<div class="headBox_studentCard">
+									<!--头像-->
+									<img class="head_studentCard" src="{$data['headimg']?$data['headimg']:$data['headimgurl']}" />
+									<!--录取图标-->
+
+									<img class="enroll_studentCard" src="__IMG__/icon-enroll.png"  style="display:<?php if($data['user_status']==1){echo 'block';}else{echo 'none';} ?>"/>
+									
+								</div>
+								<div class="info_studentCard">
+									<!--年级、专业、学校-->
+									<p>{$data.grade}<span> | </span>{$data.major}</p>
+									<p>{$data.school}</p>
+								</div>
+							</section><footer>
+								<!--可实习地点-->
+								<?php if($data['address']){ ?>
+								<p class="place"><img src="__IMG__/icon-coordinates.png" /><span>{$data.address}</span></p>
+								<?php }  ?>
+								<!--可实习时间-->
+								<p class="gray_studentCard">空档·{$data.intern} - {$data.enddate}</p>
+							</footer></a>
+
+						</div>
+						</volist>
+					</div>
+				</div>
+			</section>
+		</div>
+<script>
+	function add(id){
+		$.post('{:U("Personnel/house")}',{'id':id},function (res) {
+			var data = $.parseJSON(res);
+			if(data.error == 0  ){
+				if(data.del == 1){
+					$('#uncollect_'+id).attr('src','__IMG__/btn-collect.png');
+					$('#uncollect_'+id).removeClass('uncollect').addClass('collect');
+				}else{
+
+					$('#uncollect_'+id).attr('src','__IMG__/btn-uncollect.png');
+					$('#uncollect_'+id).removeClass('collect').addClass('uncollect');
+				}
+
+			}else{
+				alert(data.msg);return;
+			}
+		});
+	}
+
+</script>
+<include file="Public:footer" />

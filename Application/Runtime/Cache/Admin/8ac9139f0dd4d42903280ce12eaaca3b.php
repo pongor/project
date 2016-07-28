@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>导航栏</title>
-    <link rel="stylesheet" href="/project/Public/Admin/css/reset.css" />
-    <link rel="stylesheet" href="/project/Public/Admin/css/nav_man.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/reset.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/nav_man.css" />
 
-    <link rel="stylesheet" href="/project/Public/Admin/css/style_man.css" />
-    <script type="text/javascript" src="/project/Public/Admin/js/jquery2.1.4.min.js"></script>
-    <script type="text/javascript" src="/project/Public/Admin/js/function_man.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/style_man.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery2.1.4.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/function_man.js"></script>
 </head>
 	<body>
 		<div class="layout_wrap">
@@ -42,14 +42,14 @@
 						</tr>
 				<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
 							<td><?php echo ($data["id"]); ?></td>
-							<td><?php echo ($data["name"]); ?></td>
+							<td><?php echo ($data['name'] ? $data['name'] : $data['nickname']); ?></td>
 							<td><?php echo ($data["phone"]); ?></td>
 							<td><?php echo ($data["grade"]); ?></td>
 							<td><?php echo ($data["school"]); ?></td>
 							<td><?php echo ($data["major"]); ?></td>
 							<td><?php echo ($data["internship_time"]); ?></td>
 							<td><a href="<?php echo U('Student/detail',array('id'=>$data['id']));?>">查看</a></td>
-							<td class="display <?php echo $data['status'] == 0 ? 'unused' :'';?>" onclick="status(<?php echo ($data["id"]); ?>,<?php echo $data['status'] == 1 ? 0 : 1 ?>)">不显示</td>
+							<td class="display <?php echo $data['show'] == 0 ? 'unused' :'';?>" onclick="status(<?php echo ($data["id"]); ?>,<?php echo $data['show'] == 1 ? 0 : 1 ?>)">不显示</td>
 						</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
 

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>导航栏</title>
-    <link rel="stylesheet" href="/project/Public/Admin/css/reset.css" />
-    <link rel="stylesheet" href="/project/Public/Admin/css/nav_man.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/reset.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/nav_man.css" />
 
-    <link rel="stylesheet" href="/project/Public/Admin/css/style_man.css" />
-    <script type="text/javascript" src="/project/Public/Admin/js/jquery2.1.4.min.js"></script>
-    <script type="text/javascript" src="/project/Public/Admin/js/function_man.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/style_man.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery2.1.4.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/function_man.js"></script>
 </head>
 	<body>
 		<div class="layout_wrap">
@@ -16,7 +16,7 @@
 			<header class="mod_header">
 				<!--组件：标题-->
 				<h2 class="cell_headerTitle attr_left">学生详情－<?php echo ($data["name"]); ?> <span></span></h2>
-				<button class="cell_buttonSend attr_right" type="button" onclick="window.location.href='/project<?php echo ($data["resume"]); ?>'"> 下载简历</button>
+				<button class="cell_buttonSend attr_right" type="button" onclick="window.location.href='<?php echo ($data["resume"]); ?>'"> 下载简历</button>
 			</header>
 			<!--内容-->
 			<section class="mod_section">

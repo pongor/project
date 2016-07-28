@@ -9,15 +9,15 @@
 					<header class="header">
 						<!--公众号二维码链接-->
 						<div class="QRcodeBox_header">
-							<a href="QRcode_etp.html"><div class="QRcode_header">
+							<a href="{:U('Index/qrcode')}"><div class="QRcode_header">
 								<img src="__IMG__/icon-QRcode.png" />
 								<span>独立说公号</span>
 							</div></a>
 						</div>
 						<!--头像-->
-						<div class="head_header"><img src="{$data['headimg'] ? $data['headimg'] :$data['headimgurl']}" /></div>
+						<div class="head_header upload_btn"><img src="{$data['headimg'] ? $data['headimg'] :$data['headimgurl']}" /><!-- <input class="upload_input" type="file" name="file" id="file" onchange="upLoad('./upload/headerimg/backend/',this.id)"/> --></div>
 						<!--名字-->
-						<span class="name_header">{$data.name}</span>
+						<span class="name_header">{$data['name']?$data['name']:$data['nickname']}</span>
 						<!--tab-->
 						<div class="tabBar_header">
 							<div class="tab2_header checkedTab_header">个人信息</div>
@@ -41,4 +41,41 @@
 				</div>
 			</section>
 		</div>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Home/js/ajaxfileupload.js"></script>
 <include file="Public:footer" />
+<script>
+	function upLoad(path,field)
+    {
+    	//var id = '{:I("get.id")}';
+    	var id =110;
+        var root = '__APP__';
+        $.ajaxFileUpload
+        ({
+            url: '{:U("Index/upload")}', //用于文件上传的服务器端请求地址
+            type: 'post',
+            data: { 'path':path,'field':field}, //此参数非常严谨，写错一个引号都不行
+            secureuri: false, //一般设置为false
+            fileElementId: field, //文件上传空间的id属性  <input type="file" id="file" name="file" />
+            dataType: 'content', //返回值类型 一般设置为json
+            success: function (data)  //服务器成功响应处理函数
+            {   
+                 if(data=='1'){
+                 	//alert('上传成功');
+                 	//$("#refrash").attr("src","");
+                 	//$("#refrash").attr("src","{$data['headimg']}");
+                 	location.reload();
+                 }else{
+                 	alert('照片过大,上传失败');
+                 	
+                 	
+                 	
+                 }
+            }
+            // error: function (data, status, e)//服务器响应失败处理函数
+            // {
+            //    // alert(e);
+            // }
+        });//这是ajax1结束Tags
+        return false;
+    }
+</script>

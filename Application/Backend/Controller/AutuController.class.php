@@ -10,14 +10,17 @@ namespace Backend\Controller;
 use Think\Controller;
 
 class AutuController extends Controller
-{
+{    
+	public $code;
+    
     public function __construct()
-    {
+    {   
         parent::__construct();
-        $this->user_id =  intval(session('user_id'));
+        $this->user_id = intval(session('uid'));
+        
         if($this->user_id <= 0 ){
-            redirect(U('Login/index'));
+            redirect(U('Login/index'));return;
         }
+        $this->code     = session('code');
     }
-
 }

@@ -20,4 +20,7 @@ class AdvertisementModel extends Model
     public function getUpdate($where,$data){ ///
         return $this->where($where)->save($data);
     }
+    public function getInsert($data){
+    	return $this->add($data);
+    }
 }

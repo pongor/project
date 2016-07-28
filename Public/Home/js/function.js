@@ -21,6 +21,7 @@ $(function(){
 		if($('.Lookat_resume').css('display') == 'block'){
 			$('.tiptop').css('display','none');
 		}else{
+			$('.Lookat_resume').css('display','block');
 			$('.tiptop').css('display','block');
 			$('.tiptop table td').html('上传简历后HR才能联系你哦');
 		}

@@ -1,0 +1,38 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<inclide file="Public:nav" />
+			<!--页面内容-->
+			<div class="content">
+				<div class="height_oneScreen">
+
+					<div class="main_editRecord">
+						<div class="textareaBox_editRecord">
+							<textarea>{$data['content'] ? $data['content']: '今天我和导师沟通了一下我对于策划的新想法,他很支持我的一些独特见解'}</textarea>
+						</div>
+						<button class="button-red">保存记录</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<script>
+	$(function(){
+		$('.button-red').click(function(){
+			
+			var con = $('textarea').val();
+			var pingjia_id = '{$pingjia_id}';
+			
+			$.post("{:U('Offer/saveupdate')}",{'con':con,'pingjia_id':pingjia_id},function(res){
+				//alert(res);return false;
+				var data = $.parseJSON(res);
+				if(data.error == 0) {
+					window.location.href="{:U('Offer/record')}";
+				}else{
+					alert(data.msg);return;
+				}
+			});
+		});
+	});
+</script>
+
+<include file="Public:footer" />

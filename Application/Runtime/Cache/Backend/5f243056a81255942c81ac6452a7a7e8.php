@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <title>实习独立说</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link href="/project/Public/Backend/css/reset.css" type="text/css" rel="stylesheet"/>
-    <link href="/project/Public/Backend/css/style.css" type="text/css" rel="stylesheet" />
-    <script src="/project/Public/Backend/js/jquery2.1.4.min.js"></script>
-    <script src="/project/Public/Backend/js/font.js"></script>
-    <script src="/project/Public/Backend/js/function.js"></script>
+    <link href="/Public/Backend/css/reset.css" type="text/css" rel="stylesheet"/>
+    <link href="/Public/Backend/css/style.css" type="text/css" rel="stylesheet" />
+    <script src="/Public/Backend/js/jquery2.1.4.min.js"></script>
+    <script src="/Public/Backend/js/font.js"></script>
+    <script src="/Public/Backend/js/function.js"></script>
 </head>
 <body>
 <div class="wrap">
     <!--导航栏-->
-<nav class="nav">
-    <div class="bg_nav"></div>
-    <a href="<?php echo U('Personnel/index');?>"><div class="tab2_nav">
-        <img class="imgPractice_nav" src="/project/Public/Backend/img/icon-talent.png" />
-        <span class="text_nav">人才</span>
-    </div></a>
-    <a href="<?php echo U('Personnel/student');?>"><div class="tab2_nav">
-        <img class="imgPractice_nav" src="/project/Public/Backend/img/icon-appraise.png" />
-        <span class="text_nav">实习评价</span>
-    </div></a>
-    <a href="<?php echo U('Index/index');?>"><div class="tab2_nav">
-        <div class="boxMy_nav"><img class="imgMy_nav" src="/project/Public/Backend/img/icon-head3.jpg" /></div>
-        <span class="boxMytext_nav textChecked_nav">我的</span>
-    </div></a>
-</nav>
+    <nav class="nav">
+        <div class="bg_nav"></div>
+        <a href="<?php echo U('Personnel/index');?>"><div class="tab2_nav">
+            <img class="imgPractice_nav" src="/Public/Backend/img/icon-talent.png" />
+            <span class="text_nav">人才</span>
+        </div></a>
+        <a href="<?php echo U('Personnel/student');?>"><div class="tab2_nav">
+            <img class="imgPractice_nav" src="/Public/Backend/img/icon-appraiseChecked.png" />
+            <span class="textChecked_nav">实习评价</span>
+        </div></a>
+        <a href="<?php echo U('Index/index');?>"><div class="tab2_nav">
+            <div class="boxMy2_nav"><img class="imgMy_nav" src="<?php echo ($selfimg); ?>" /></div>
+            <span class="boxMytext_nav text_nav">我的</span>
+        </div></a>
+    </nav>
     <!--页面内容-->
     <section class="content">
         <!--页面主要内容-->
@@ -38,9 +38,17 @@
                 <div class="QRcodeBox_header">
                 </div>
                 <!--头像-->
-                <div class="head_header"><img src="<?php echo ($data["headimgurl"]); ?>" /></div>
+            <div class="head2_header">
+                <!--头像-->
+                <img class="imgHead_header" src="<?php echo ($data['headimg']?$data['headimg']:$data['headimgurl']); ?>" />
+                <?php if($data['user_status'] ==1){ ?>
+                <img class="enroll_studentCard" src="/Public/Backend/img/icon-enroll.png"/>
+                <?php } ?>
+            
+            </div>
+
                 <!--名字-->
-                <span class="name_header"><?php echo ($data["nickname"]); ?></span>
+                <span class="name_header"><?php echo ($data["name"]); ?></span>
                 <!--简介／描述-->
                 <p class="intro2_header"><?php echo ($data["grade"]); ?><span> | </span><?php echo ($data["major"]); ?><span> | </span><?php echo ($data["school"]); ?></p>
             </header>
@@ -57,15 +65,15 @@
                         <div class="checkedBoxBox_appraise">
                             <?php  if($true) { ?>
                             <!--未选中-->
-                            <img class="checkedBox_appraise hidden" src="/project/Public/Backend/img/btn-checkedBox.png" />
+                            <img class="checkedBox_appraise hidden" src="/Public/Backend/img/btn-checkedBox.png" />
                             <!--选中-->
-                            <img class="checked_appraise" src="/project/Public/Backend/img/btn-checked.png" />
+                            <img class="checked_appraise" src="/Public/Backend/img/btn-checked.png" />
 
                             <input type="checkbox" value="<?php echo ($r["id"]); ?>" name="blem[]"  style="display: none;" checked>
                             <?php }else{ ?>
-                            <img class="checkedBox_appraise" src="/project/Public/Backend/img/btn-checkedBox.png" />
+                            <img class="checkedBox_appraise" src="/Public/Backend/img/btn-checkedBox.png" />
                             <!--选中-->
-                            <img class="checked_appraise hidden" src="/project/Public/Backend/img/btn-checked.png" />
+                            <img class="checked_appraise hidden" src="/Public/Backend/img/btn-checked.png" />
 
                             <input type="checkbox" value="<?php echo ($r["id"]); ?>" name="blem[]"  style="display: none;" >
                             <?php } ?>
@@ -79,9 +87,9 @@
                     <div class="title2_appraise">请留下您的评语</div>
                     <!--自我描述-->
                     <div class="textareaBox2_edit">
-                        <textarea maxlength="40" name="appraise" placeholder="请填写您对此学生的详细评价"><?php echo ($pro["content"]); ?></textarea>
+                        <textarea maxlength="140" name="appraise" placeholder="请填写您对此学生的详细评价(限140字内)"><?php echo ($content); ?></textarea>
                     </div>
-                    <button class="button-red marginBtn_appraise" >保存评价</button>
+                    <button type="button" class="button-red marginBtn_appraise" >保存评价</button>
                 </div>
                 </form>
             </section>

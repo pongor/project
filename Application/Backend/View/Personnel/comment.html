@@ -1,7 +1,21 @@
 <include file="Public:header" />
 <div class="wrap">
     <!--导航栏-->
-<include file="Public:nav" />
+    <nav class="nav">
+        <div class="bg_nav"></div>
+        <a href="{:U('Personnel/index')}"><div class="tab2_nav">
+            <img class="imgPractice_nav" src="__IMG__/icon-talent.png" />
+            <span class="text_nav">人才</span>
+        </div></a>
+        <a href="{:U('Personnel/student')}"><div class="tab2_nav">
+            <img class="imgPractice_nav" src="__IMG__/icon-appraiseChecked.png" />
+            <span class="textChecked_nav">实习评价</span>
+        </div></a>
+        <a href="{:U('Index/index')}"><div class="tab2_nav">
+            <div class="boxMy2_nav"><img class="imgMy_nav" src="{$selfimg}" /></div>
+            <span class="boxMytext_nav text_nav">我的</span>
+        </div></a>
+    </nav>
     <!--页面内容-->
     <section class="content">
         <!--页面主要内容-->
@@ -12,9 +26,17 @@
                 <div class="QRcodeBox_header">
                 </div>
                 <!--头像-->
-                <div class="head_header"><img src="{$data.headimgurl}" /></div>
+            <div class="head2_header">
+                <!--头像-->
+                <img class="imgHead_header" src="{$data['headimg']?$data['headimg']:$data['headimgurl']}" />
+                <?php if($data['user_status'] ==1){ ?>
+                <img class="enroll_studentCard" src="__IMG__/icon-enroll.png"/>
+                <?php } ?>
+            
+            </div>
+
                 <!--名字-->
-                <span class="name_header">{$data.nickname}</span>
+                <span class="name_header">{$data.name}</span>
                 <!--简介／描述-->
                 <p class="intro2_header">{$data.grade}<span> | </span>{$data.major}<span> | </span>{$data.school}</p>
             </header>
@@ -58,9 +80,9 @@
                     <div class="title2_appraise">请留下您的评语</div>
                     <!--自我描述-->
                     <div class="textareaBox2_edit">
-                        <textarea maxlength="40" name="appraise" placeholder="请填写您对此学生的详细评价">{$pro.content}</textarea>
+                        <textarea maxlength="140" name="appraise" placeholder="请填写您对此学生的详细评价(限140字内)">{$content}</textarea>
                     </div>
-                    <button class="button-red marginBtn_appraise" >保存评价</button>
+                    <button type="button" class="button-red marginBtn_appraise" >保存评价</button>
                 </div>
                 </form>
             </section>

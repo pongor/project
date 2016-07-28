@@ -48,10 +48,13 @@ html,body{ width: 100%; height: 100%; }
 	width: 100%;
 	height: 2.56rem;
 	background-color: #ffffff;
-	filter:alpha(opacity=80);  
+	/*filter:alpha(opacity=80);  
 	-moz-opacity:0.8;  
 	-khtml-opacity: 0.8;  
-	opacity: 0.8;
+	opacity: 0.8;*/
+	background-color: hsla(0,0%,100%,.95);
+	-webkit-backdrop-filter: blur(18px);
+
 }
 .tab_nav{
 	position: relative;
@@ -186,10 +189,22 @@ html,body{ width: 100%; height: 100%; }
 	height: 4rem;
 	margin: 0 auto;
 }
+.upload_btn{
+	position: relative;
+}
+.upload_btn input{
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+    opacity: 0;
+}
 .head_header img, .imgHead_header{
 	width: 4rem;
 	height: 4rem;
 	border-radius: 4rem;
+	background-position:center; 
 }
 .enrollHead_header{
 	position: absolute;
@@ -207,7 +222,7 @@ html,body{ width: 100%; height: 100%; }
 	color: #222;
 }
 .intro_header, .intro2_header{
-	text-indent: 0.72rem;
+	/*text-indent: 0.72rem;*/
 	width: 100%;
 	height: auto;
 	padding: 0.2667rem 2.28rem 0.96rem 2.28rem;
@@ -344,10 +359,10 @@ html,body{ width: 100%; height: 100%; }
 	width: 14.4rem;
 }
 .input2_edit{
-	float: right;
-	width: 3.9rem;
+	/*float: right;*/
+	width: 4.3rem;
     text-align: center;
-    margin-right: -3px;
+   
 }
 .arrow_edit{
     float: left;
@@ -689,7 +704,7 @@ html,body{ width: 100%; height: 100%; }
 /*student practiceCard end*/
 /*student popup start*/
 .popup{
-	display: block;
+	/*display: block;*/
 	position: fixed;
 	z-index: 600;
 	top: 0;
@@ -766,12 +781,13 @@ html,body{ width: 100%; height: 100%; }
 .inputBox_code_popup input{
 	position: absolute;
 	top: 0;
-	left: 0.8667rem;
+	left: 0.9rem;
 	width: 14rem;
 	height: 100%;
+	padding-left: 0;
 	outline: none;
 	border: none;
-	letter-spacing: 1.7333rem;
+	letter-spacing: 1.755rem;
 	background: none;
 	color: #333;
 	font-size: 0.6933rem;
@@ -850,6 +866,7 @@ html,body{ width: 100%; height: 100%; }
 }
 .head_studentCard{
 	display: block;
+	width: 3.46rem;
 	height: 3.46rem;
 	border-radius: 3.46rem;
 }
@@ -894,6 +911,23 @@ html,body{ width: 100%; height: 100%; }
 }
 .red_studentCard{
 	color: #FF2D52;
+}
+.place{
+	float: left;
+	padding-top: 0.70rem;
+}
+.place img{
+	width: 0.5333rem;
+	margin-right: 0.1333rem;
+	float: left;
+}
+.place span{ 
+	display: block;
+	float: left;
+	margin-top: 0.0266rem;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #888888;
 }
 .green_studentCard{
 	color: #6eb6b3;
@@ -1099,11 +1133,11 @@ html,body{ width: 100%; height: 100%; }
 .width_100{
 	width: 100%;
 }
-.width_452r{
-	width: 4.52rem;
+.width_552r{
+	width: 5.52rem;
 }
-.width_11r{
-	width: 11rem;
+.width_10r{
+	width: 10rem;
 }
 .height_oneScreen{
 	height: 29.5467rem;

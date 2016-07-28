@@ -18,7 +18,7 @@
 						<!--头像-->
 						<div class="head_header"><img src="{$data['headimg'] ? $data['headimg'] : $data['headimgurl']}" /></div>
 						<!--名字-->
-						<span class="name_header">{$data.name}</span>
+						<span class="name_header">{$data['name']?$data['name']:$data['nickname']}</span>
 						<!--tab-->
 						<div class="tabBar_header">
 							<div class="tab2_header checkedTab_header">个人信息</div>
@@ -57,7 +57,7 @@
 							</div>
 							<p class="tip_edit"></p>
 							<!--保存按钮-->
-							<button class="button-red saveInfo_etp">保存信息</button>
+							<button type="button" class="button-red saveInfo_etp">保存信息</button>
 						</div>
 					</form>
 						<!--简历部分-->
@@ -93,13 +93,13 @@
 			}else if( !phoneReg.exec($("input[name='phone']").val()) ){
 				$('.tip_edit').html('请填写正确手机号');
 				return false;
-			}else if($("input[name='firm']").val() == ''){
+			}else if($("input[name='company']").val() == ''){
 				$('.tip_edit').html('请填写公司');
 				return false;
 			}else if($("input[name='department']").val() == ''){
 				$('.tip_edit').html('请填写部门');
 				return false;
-			}else if($("input[name='position']").val() == ''){
+			}else if($("input[name='postition']").val() == ''){
 				$('.tip_edit').html('请填写职位');
 				return false;
 			}else{

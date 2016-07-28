@@ -65,20 +65,22 @@
 							aysnc:true,
 							success: function(data) {
 									//console.log(data);return false;
+									//alert(data);
                                     if(data != '1'){
 									   alert("发送失败,请稍后再试");
 									}else{
 									   alert("短信验证码已发送,10分钟内有效");
+									   //alert("请输入验证码567890");
 										/**
 										 * 验证码倒计时
 										 */
-											var countdown = 7;
+											var countdown = 60;
 											var val = document.getElementById('mobile');
 											function settime(){
 												if(countdown == 0){
 													val.removeAttribute("disabled");
 													val.innerHTML = "获取验证码";
-													countdown = 7;
+													countdown = 60;
 													return;
 												}else{
 													val.setAttribute("disabled",true);
@@ -153,14 +155,13 @@
 					type:'post',
 					data:{'phone':phone,'code':code},
 					success: function(data) {
-							//console.log(data);return false;
-							var data = data ;
+
 							if(data != '1' ){
 								console.log(data);
 								alert(data);
 							}else{
-							    alert('登陆成功');
-								console.log(data);
+
+							    //alert('登陆成功');
 								window.location.href="/Home/Post/index";
 							}
 

@@ -8,15 +8,17 @@
 
 namespace Backend\Controller;
 use Think\Controller;
+use Boris\DumpInspector;
 
 class LoginController extends Controller
-{
+{   
     public function index(){
+        
         $access = get_access();
         $appid = C('appid');
         $redirect_uri = urlencode('http://css.dulishuo.com/Backend/Login/check'); //回调地址
         $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid={$appid}&redirect_uri={$redirect_uri}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect"; // 微信登录链接
-        redirect($url);die;
+        redirect($url);
     }
     public function check()
     {
@@ -36,7 +38,7 @@ class LoginController extends Controller
         $user_Data = json_decode($user_Result, true);
         $model = D('Company');
         $data = [
-            'nickname' => $user_Data['nickname'],
+            'nickname' => json_decode(preg_replace("#(\\\ud[0-9a-f]{3})|(\\\ue[0-9a-f]{3})#ie",'',json_encode($user_Data['nickname']))),
             'sex'       =>  $user_Data['sex'],
             'city'      =>  $user_Data['city'],
             'country'   =>  $user_Data['country'],
@@ -46,19 +48,39 @@ class LoginController extends Controller
             //'name'      =>  $user_Data['']
         ];
 
-       $r =  $model->getInfo(" openid = '{$user_Data['openid']}'");
+        //dump($data);die;
+        
+        
+        //$r =  $model->getInfo(" openid = '{$user_Data['openid']}'");
+        $map['openid']=$data['openid'];
+        $r = M('Company')->where($map)->find();
+        //dump($r);die;
         if($r){ //存在就更新
-            $model -> getUpdate(array('id' => $r['id']),$data);
-            $user_id = $r['user_id'];
+            //dump($r);die;
+            $biil=M('Company')-> where('id='.$r['id'])->save($data);
+            $user_id = $r['id'];
+
         }else{
+            //echo $model->_sql();die;
             $data['at_time']    = time();
-           $user_id =  $model->getInsert($data);
+            //$user_id =  $model->getInsert($data);
+            $user_id=M('Company')->add($data);
         }
+        
+        session('uid',$user_id,31536000);
+        session('headimgurl',$user_Data['headimgurl'],31536000);
+        //dump($data['openid']);die;
 
-        session('user_id',$user_id,31536000);
+        redirect(U('Personnel/index'));
 
-        redirect(U('Index/index'));die;
 
+    }
+
+        public function test(){
+
+          $id=I('get.pdf');
+          $file='http://123.57.250.189/upload/file/'.$id.'.pdf';
+          redirect($file);
 
     }
 }

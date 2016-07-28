@@ -48,10 +48,12 @@ html,body{ width: 100%; height: 100%; }
 	width: 100%;
 	height: 2.56rem;
 	background-color: #ffffff;
-	filter:alpha(opacity=80);  
+	/*filter:alpha(opacity=80);  
 	-moz-opacity:0.8;  
 	-khtml-opacity: 0.8;  
-	opacity: 0.8;
+	opacity: 0.8;*/
+	background-color: hsla(0,0%,100%,.95);
+	-webkit-backdrop-filter: blur(18px);
 }
 .tab_nav{
 	position: relative;
@@ -186,6 +188,19 @@ html,body{ width: 100%; height: 100%; }
 	height: 4rem;
 	margin: 0 auto;
 }
+
+
+.upload_btn{
+	position: relative;
+}
+.upload_btn input{
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 4rem;
+    height: 4rem;
+    opacity: 0;
+}
 .head_header img, .imgHead_header{
 	width: 4rem;
 	height: 4rem;
@@ -207,7 +222,8 @@ html,body{ width: 100%; height: 100%; }
 	color: #222;
 }
 .intro_header, .intro2_header{
-	text-indent: 0.72rem;
+	/*text-align: center;*/
+	/*text-indent: 0.72rem;*/
 	width: 100%;
 	height: auto;
 	padding: 0.2667rem 2.28rem 0.96rem 2.28rem;
@@ -847,6 +863,7 @@ html,body{ width: 100%; height: 100%; }
 }
 .head_studentCard{
 	display: block;
+	width: 3.46rem;
 	height: 3.46rem;
 	border-radius: 3.46rem;
 }
@@ -894,6 +911,23 @@ html,body{ width: 100%; height: 100%; }
 }
 .green_studentCard{
 	color: #6eb6b3;
+}
+.place{
+	float: left;
+	padding-top: 0.70rem;
+}
+.place img{
+	width: 0.5333rem;
+	margin-right: 0.1333rem;
+	float: left;
+}
+.place span{ 
+	display: block;
+	float: left;
+	margin-top: 0.0266rem;
+	font-size: 0.6933rem;
+	line-height: 0.6933rem;
+	color: #888888;
 }
 .gray_studentCard{
 	color: #888888;
@@ -994,12 +1028,15 @@ html,body{ width: 100%; height: 100%; }
 }
 .comment_appraise{
 	width: 100%;
+	word-wrap: break-word;
 	border-top: 1px solid #EEEEEE;
 	line-height: 1.2267rem;
 	color: #666666;
 	font-size: 0.6933rem;
 	text-align: center;
 	padding-top: 0.96rem;
+	padding-left: 0.96rem;
+	padding-right: 0.96rem;
 	padding-bottom: 2.08rem;
 }
 .title_appraise{

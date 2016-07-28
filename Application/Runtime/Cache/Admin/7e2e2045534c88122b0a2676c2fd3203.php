@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>导航栏</title>
-    <link rel="stylesheet" href="/project/Public/Admin/css/reset.css" />
-    <link rel="stylesheet" href="/project/Public/Admin/css/nav_man.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/reset.css" />
+    <link rel="stylesheet" href="/Public/Admin/css/nav_man.css" />
 
-    <link rel="stylesheet" href="/project/Public/Admin/css/style_man.css" />
-    <script type="text/javascript" src="/project/Public/Admin/js/jquery2.1.4.min.js"></script>
-    <script type="text/javascript" src="/project/Public/Admin/js/function_man.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/style_man.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery2.1.4.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/function_man.js"></script>
 </head>
 	<body>
-	<script src="/project/Public/Admin/js/ajaxfileupload.js"></script>
+	<script src="/Public/Admin/js/ajaxfileupload.js"></script>
 		<div class="layout_wrap">
 			<!--头部-->
 			<header class="mod_header">
@@ -38,7 +38,7 @@
 						</tr>
 						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><tr>
 							<td><input class="cell_inputLang" type="text" placeholder="请输入行业名称" value="<?php echo ($list["name"]); ?>" onchange="update(this.value,<?php echo ($list["id"]); ?>);"></td>
-							<td><!--上传的图片--><img class="banner_trade" id="img_<?php echo ($list["id"]); ?>" src="/project<?php echo ($list["file"]); ?>" width="360" height="197" /></td>
+							<td><!--上传的图片--><img class="banner_trade" id="img_<?php echo ($list["id"]); ?>" src="<?php echo ($list["file"]); ?>" width="360" height="197" /></td>
 							<td><button class="cell_button2" type="button" onclick="$('#'+'file_<?php echo ($list["id"]); ?>').click();">上传</button>
 								<input type="file" name="file" style="display: none" id="file_<?php echo ($list["id"]); ?>" onchange="upLoad('./upload/hangye/','Industry',<?php echo ($list["id"]); ?>)">
 							</td>
@@ -71,7 +71,7 @@
 		<script>
 			function upLoad(path,model,id)
 			{
-				var root = '/project';
+				var root = '';
 				$.ajaxFileUpload
 				({
 					url: '<?php echo U("Index/upload");?>', //用于文件上传的服务器端请求地址

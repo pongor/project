@@ -31,12 +31,14 @@ class AdvertisingController extends Controller
         $name = I('post.name');
         $id = intval(I('post.id'));
         $field = I('post.field');
-        if($id <= 0){
-            echo json_encode(array('error'=>1,'msg'=>'参数错误'));die;
-        }
+
         $model = D('advertisement');
         $data = [  $field => $name];
-        $res = $model -> getUpdate(array('id'=> $id),$data);
+        if($id<=0){
+             $res = $model -> getInsert($data); 
+        }else{
+            $res = $model -> getUpdate(array('id'=> $id),$data); 
+        }
 
         if($res){
             echo json_encode(array('error'=>0,'msg'=>'修改成功'));die;

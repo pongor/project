@@ -1,41 +1,6 @@
+
 $(function(){
 
-	/**
-	 * editInfo_stu.html  home_stu.html
-	 * 顶部提示框的状态和内容的改变
-	 *
-	 */
-	$('.myInfo').click(function(){
-		$(this).addClass('checkedTab_header');
-		$('.myResume').removeClass('checkedTab_header');
-		$('.myInfo-block').css('display','block');
-		$('.myResume-block').css('display','none');
-		$('.tiptop').css('display','block');
-		$('.tiptop table td').html('完善个人信息才能让企业看到你哦');
-	});
-	$('.myResume').click(function(){
-		$(this).addClass('checkedTab_header');
-		$('.myInfo').removeClass('checkedTab_header');
-		$('.myInfo-block').css('display','none');
-		$('.myResume-block').css('display','block');
-		if($('.Lookat_resume').css('display') == 'block'){
-			$('.tiptop').css('display','none');
-		}else{
-			$('.tiptop').css('display','block');
-			$('.tiptop table td').html('上传简历后HR才能联系你哦');
-		}
-	});
-	$('.UploadResume_btn').click(function(){
-		$('.Lookat_resume').css('display','block');
-		$('.Upload_resume').css('display','none');
-		$('.tiptop').css('display','none');
-	});
-	$('.LookatResume_btn').click(function(){
-		$('.Lookat_resume').css('display','none');
-		$('.Upload_resume').css('display','block');
-		$('.tiptop').css('display','block');
-		$('.tiptop table td').html('上传简历后HR才能联系你哦');
-	});
 	
 	/**
 	 * edit*** 编辑信息
@@ -187,7 +152,7 @@ $(function(){
 	 * studentList_etp.html
 	 * 点击tab切换内容
 	 *
-	 */
+	 
 	$('.allStu').click(function(){
 		$(this).addClass('checkedTab_header');
 		$('.collectStu').removeClass('checkedTab_header');
@@ -200,7 +165,7 @@ $(function(){
 		$('.allStu-block').css('display','none');
 		$('.collectStu-block').css('display','block');
 	});
-
+	*/
 
 
 

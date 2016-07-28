@@ -29,7 +29,7 @@
 						</tr>
 						<volist name="list" id="data">
 						<tr>
-							<td><input class="cell_inputLang" type="text" placeholder="请输入广告名" value="{$data.title}" onchange="update(this.value,{$data.id},'title')"></td>
+							<td><input class="cell_inputLang" type="text" placeholder="请输入广告名" value="{$data.title}" onchange="update(this.value,{$data['id'] ? $data['id'] : 0},'title')"></td>
 							<td><!--上传的图片--><img class="banner_advertising" id="img_{$data.id}" src="__ROOT__{$data.file}" /></td>
 							<td><button class="cell_button2" type="button" onclick="$('#'+'file_{$data.id}').click();">上传</button>
 								<input type="file" name="file" style="display: none" id="file_{$data.id}" onchange="upLoad('./upload/guanggao/','Advertisement',{$data.id})">
@@ -37,6 +37,8 @@
 							<td><input type="checkbox" value="1" id="check_{$data.id}" onclick="checkeds({$data.id})" <?php echo $data['status'] == 1 ? 'checked' : ''; ?> ></td>
 							<td><input class="cell_inputShort2" type="text" value="{$data.orders}" onchange="update(this.value,{$data.id},'orders')"></td>
 						</tr>
+
+
 						</volist>
 					</tbody>
 				</table>
@@ -57,7 +59,7 @@
 			<div class="model">
 				<table>
 					<tr class="modeladd">
-						<td><input class="cell_inputLang" type="text" placeholder="请输入广告名" value=""></td>
+						<td><input class="cell_inputLang" type="text" placeholder="请输入广告名" value=""  onchange="update(this.value,0,'title')"></td>
 						<td><!--上传的图片--></td>
 						<td><button class="cell_button2" type="button">上传</button></td>
 						<td><input type="checkbox"></td>
@@ -103,9 +105,8 @@
 			}
 			function update(name,id,filed) {
 				if(id <= 0) {
-					return false;
+					
 				}
-
 				$.post('{:U("Advertising/update")}',{'name':name,'id':id,'field':filed},function (data){
 					var obj = $.parseJSON(data);
 					if(obj.error == 0){

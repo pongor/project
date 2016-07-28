@@ -1,0 +1,2424 @@
+[ 2016-07-25T10:17:10+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T10:17:23+08:00 ] 45.32.42.6 /Admin/Student/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 10,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T10:17:26+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T10:17:28+08:00 ] 45.32.42.6 /Admin/Student/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-07-25T10:17:29+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: UPDATE `users` SET `show`='1' WHERE `id` = 7 [ RunTime:0.0003s ]
+
+[ 2016-07-25T11:04:40+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-07-25T11:04:45+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T11:04:47+08:00 ] 45.32.42.6 /Admin/Student/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-25T11:04:49+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: UPDATE `users` SET `show`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+
+[ 2016-07-25T14:12:54+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-07-25T14:13:22+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T14:13:25+08:00 ] 45.32.42.6 /Admin/Code/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T14:13:26+08:00 ] 45.32.42.6 /Admin/Code/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-07-25T14:13:27+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-07-25T14:13:31+08:00 ] 45.32.42.6 /Admin/Company/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `company` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-07-25T14:13:34+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T14:13:34+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T14:13:34+08:00 ] 45.32.42.6 /Admin/Company/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `company` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-25T14:13:36+08:00 ] 45.32.42.6 /Admin/Company/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `company` ORDER BY at_time desc LIMIT 10,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-25T14:13:37+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T14:13:45+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-07-25T14:13:49+08:00 ] 45.32.42.6 /Admin/Code/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 10,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-07-25T14:13:51+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-07-25T14:15:21+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-07-25T14:15:28+08:00 ] 45.32.42.6 /Admin/Code/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 10,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T14:15:31+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-07-25T14:59:41+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T16:32:54+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-07-25T16:32:55+08:00 ] 45.32.42.6 /Admin/Company/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `company` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-07-25T16:32:56+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T17:51:49+08:00 ] 45.32.42.6 /Admin/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `industry` WHERE `valid` = 1 ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `industry` WHERE `valid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T18:23:10+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T18:23:12+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-07-25T21:45:54+08:00 ] 121.42.0.82 /admin.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-07-25T21:46:35+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T21:47:42+08:00 ] 45.32.42.6 /Admin/Student/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 20,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-07-25T21:47:44+08:00 ] 45.32.42.6 /Admin/Student/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 10,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-07-25T21:47:46+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: UPDATE `users` SET `show`='0' WHERE `id` = 30 [ RunTime:0.0004s ]
+
+[ 2016-07-25T21:47:59+08:00 ] 45.32.42.6 /Admin/Student/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 20,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-07-25T21:48:00+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: UPDATE `users` SET `show`='1' WHERE `id` = 7 [ RunTime:0.0003s ]
+
+[ 2016-07-25T21:48:10+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-07-25T21:48:12+08:00 ] 45.32.42.6 /Admin/Student/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 20,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-07-25T21:52:06+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T21:52:08+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T21:52:13+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('570743','1','1469454733') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-07-25T21:52:15+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-07-25T21:52:16+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-07-25T21:52:42+08:00 ] 121.42.0.82 /admin.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-07-25T21:54:11+08:00 ] 121.42.0.82 /admin.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-07-25T21:59:10+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('945335','1','1469455150') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-07-25T21:59:12+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2016-07-25T21:59:13+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-07-25T21:59:14+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-25T22:01:33+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T22:01:35+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T22:05:43+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('031929','1','1469455543') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-07-25T22:05:45+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T22:05:46+08:00 ] 45.32.42.6 /Admin/Code/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 20,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T22:07:09+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('710780','1','1469455629') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T22:07:10+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T22:07:11+08:00 ] 45.32.42.6 /Admin/Code/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 30,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2016-07-25T22:08:44+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('281477','1','1469455724'),('716755','1','1469455724') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-07-25T22:08:45+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T22:08:47+08:00 ] 45.32.42.6 /Admin/Code/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 30,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-07-25T22:12:40+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-07-25T22:12:42+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-07-25T22:12:45+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('341655','1','1469455965') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-07-25T22:12:46+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2016-07-25T22:12:48+08:00 ] 45.32.42.6 /Admin/Code/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 30,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2016-07-25T22:13:43+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('604052','1','1469456023'),('940636','1','1469456023') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T22:13:44+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2016-07-25T22:13:46+08:00 ] 45.32.42.6 /Admin/Code/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 30,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-07-25T22:15:53+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('171655','1','1469456153'),('909565','1','1469456153') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T22:15:55+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2016-07-25T22:15:56+08:00 ] 45.32.42.6 /Admin/Code/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 30,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-07-25T22:19:56+08:00 ] 45.32.42.6 /Admin/Code/generate.html?number=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `codes` (`code`,`status`,`at_time`) VALUES ('254383','1','1469456396'),('801801','1','1469456396') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-07-25T22:19:57+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T22:19:58+08:00 ] 45.32.42.6 /Admin/Code/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 30,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-25T23:19:02+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-07-25T23:19:04+08:00 ] 45.32.42.6 /Admin/Student/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 20,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2016-07-25T23:19:06+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: UPDATE `users` SET `show`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+
+[ 2016-07-25T23:39:41+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-07-25T23:39:43+08:00 ] 45.32.42.6 /Admin/Student/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 20,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-07-25T23:39:44+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: UPDATE `users` SET `show`='1' WHERE `id` = 7 [ RunTime:0.0003s ]
+
+[ 2016-07-25T23:47:48+08:00 ] 45.32.42.6 /Admin/Code/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `codes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `codes` ORDER BY at_time asc LIMIT 0,10   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `codes` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-07-25T23:47:49+08:00 ] 45.32.42.6 /Admin/Judge/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `judge_questions` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `judge_questions` ORDER BY orders asc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `judge_questions` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2016-07-25T23:47:49+08:00 ] 45.32.42.6 /Admin/Company/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `company` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `company` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `industry` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `industry` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-07-25T23:47:49+08:00 ] 45.32.42.6 /Admin/Student/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2016-07-25T23:47:51+08:00 ] 45.32.42.6 /Admin/Student/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `users` ORDER BY at_time desc LIMIT 20,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+NOTIC: [8] Undefined index: phone /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 46 行.
+NOTIC: [8] Undefined index: internship_time /alidata/www/project/Application/Runtime/Cache/Admin/8ac9139f0dd4d42903280ce12eaaca3b.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2016-07-25T23:47:52+08:00 ] 45.32.42.6 /Admin/Student/status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: UPDATE `users` SET `show`='0' WHERE `id` = 7 [ RunTime:0.0003s ]
+

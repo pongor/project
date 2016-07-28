@@ -1,20 +1,49 @@
 <include file="Public:header" />
 <div class="wrap">
     <!--导航栏-->
-<include file="Public:nav" />
+	<nav class="nav">
+	    <div class="bg_nav"></div>
+	    <a href="{:U('Personnel/index')}"><div class="tab2_nav">
+	        <img class="imgPractice_nav" src="__IMG__/icon-talent.png" />
+	        <span class="text_nav">人才</span>
+	    </div></a>
+	    <a href="{:U('Personnel/student')}"><div class="tab2_nav">
+	        <img class="imgPractice_nav" src="__IMG__/icon-appraiseChecked.png" />
+	        <span class="textChecked_nav">实习评价</span>
+	    </div></a>
+	    <a href="{:U('Index/index')}"><div class="tab2_nav">
+	        <div class="boxMy2_nav"><img class="imgMy_nav" src="{$info}" /></div>
+	        <span class="boxMytext_nav text_nav">我的</span>
+	    </div></a>
+	</nav>
     <!--页面内容-->
     <section class="content content_myStu">
         <!--学生卡片-->
         <volist id="list" name="data">
+        <?php  $status =  $list['user_status'];  ?>
         <div class="studentCard">
             <!--跳转链接-->
-            <a href="{:U('Personnel/comment',array('id'=>$list['id']))}"><header>
+             <?php if(($status== 1)&&($list['comment']) ){   ?>
+                 <a href="{:U('Personnel/comment',array('id'=>$list['id']))}">
+             <?php }elseif(($status == 1)){ ?>
+                 <a href="{:U('Personnel/comment',array('mode'=>'show','id'=>$list['id']))}">
+             <?php }else{ ?>
+                 <a>
+             <?php } ?>
+            <header>
                 <!--姓名-->
-                <p class="name_studentCard">{$list.nickname}</p>
-            </header><section>
+                <p class="name_studentCard">{$list.name}</p>
+            </header>
+            <section>
                 <div class="headBox_studentCard">
                     <!--头像-->
-                    <img class="head_studentCard" src="{$list.headimgurl}" />
+                    <img class="head_studentCard" src="{$list['headimg']?$list['headimg']:$list['headimgurl']}" />
+					<?php $model = D('Pushs');
+					  $res = $model->getInfo(array('user_id'=>$list['id']));
+					if(isset($res['user_status']) && $res['user_status']  == 1) {
+					  ?>
+					<img class="enroll_studentCard" src="__IMG__/icon-enroll.png"  />
+					<?php } ?>
                 </div>
                 <div class="info_studentCard">
                     <!--年级、专业、学校-->
@@ -24,8 +53,8 @@
             </section>
                 <footer>
                     <!--评价状态-->
-                    <?php if($list['user_status'] == 3){   ?>
-                        <p class="green_studentCard">正在等待学生接受offer</p>
+                    <?php if(($list['user_status'])&&($list['user_status']!=1)){   ?>
+                        <p class="green_studentCard"><?php if($list['user_status'] == 3){ echo '正在等待学生接受offer' ;}else{echo '已被他企录取';} ?></p>                      
                     <?php }else{
                     if($list['status'] == 1){
                     ?>

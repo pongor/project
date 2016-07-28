@@ -32,14 +32,14 @@
 				<volist name="list" id="data">
 						<tr>
 							<td>{$data.id}</td>
-							<td>{$data.name}</td>
+							<td>{$data['name'] ? $data['name'] : $data['nickname']}</td>
 							<td>{$data.phone}</td>
 							<td>{$data.grade}</td>
 							<td>{$data.school}</td>
 							<td>{$data.major}</td>
 							<td>{$data.internship_time}</td>
 							<td><a href="{:U('Student/detail',array('id'=>$data['id']))}">查看</a></td>
-							<td class="display <?php echo $data['status'] == 0 ? 'unused' :'';?>" onclick="status({$data.id},<?php echo $data['status'] == 1 ? 0 : 1 ?>)">不显示</td>
+							<td class="display <?php echo $data['show'] == 0 ? 'unused' :'';?>" onclick="status({$data.id},<?php echo $data['show'] == 1 ? 0 : 1 ?>)">不显示</td>
 						</tr>
 				</volist>
 

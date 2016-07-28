@@ -1,0 +1,299 @@
+<include file="Public:header" />
+		<div class="wrap">
+			<!--导航栏-->
+			<include file="Public:nav"/>
+			<!--页面内容-->
+			<section class="content">
+				<!--顶部提示栏-->
+                 <?php if($data['status']!=3){ ?>
+				<div class="tiptop BGtiptop" ><table><tr><td>
+					完善个人信息和简历企业才能看到你哦
+				</td></tr></table></div>
+                <?php } ?>
+				<!--页面主要内容-->
+				<div class="main">
+					<!--头部-->
+					<header class="header">
+						<!--公众号二维码链接-->
+						<div class="QRcodeBox_header">
+							<a href="{:U('Index/qrcode')}"><div class="QRcode_header">
+								<img src="__IMG__/icon-QRcode.png" />
+								<span>独立说公号</span>
+							</div></a>
+						</div>
+						<!--头像-->
+						<div class="head_header upload_btn"><img src="{$data['headimg']?$data['headimg']:$data['headimgurl']}"/></div>
+						<!--名字-->
+						<span class="name_header">{$data.nickname}</span>
+						<!--简介／描述-->
+						<p class="intro_header" style="display:none;text-align:center;"><?php if($data['desc'] == ''){ ?>40字以内描述一下自己<?php }else{ ?> {$data.desc}<?php } ?></p>
+						<!--tab-->
+						<div class="tabBar_header">
+							<div class="tab_header myInfo checkedTab_header">个人信息</div>
+							<!-- <div class="tab_header myResume">我的简历</div> -->
+							<div class="tab_header myResume">我的简历</div>
+						</div>
+					</header>
+					<!--内容-->
+					<form class="form" method="post">
+					<section class="section">
+						<!--编辑信息-->
+						<div class="editInfo clearfix myInfo-block">
+							<!--姓名-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">姓名</span>
+								<input class="input_edit" name="name" value="{$data.name}" />
+							</div>
+							<!--手机-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">手机</span>
+								<input class="input_edit" name="mobile" value="{$data.mobile}" type="tel" maxlength="11" />
+							</div>
+							<!--年级-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">年级</span>
+								<input class="input_edit" name="grade" value="{$data.grade}" />
+							</div>
+							<!--学校-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">学校</span>
+								<input class="input_edit" name="school" value="{$data.school}" />
+							</div>
+							<!--专业-->
+							<div class="inputBox_edit width_100">
+								<span class="inputTitle1_edit">专业</span>
+								<input class="input_edit" name="major" value="{$data.major}" />
+							</div>
+							<!--优先实习地点-->
+							<select class="inputBox_edit width_100" name="address">
+								<option selected="true" disabled="true">{$data['address']|default="优先实习地点"}</option>
+								<option value="北京">北京</option>
+								<option value="上海">上海</option>
+								<option value="广州">广州</option>
+								<option value="深圳">深圳</option>
+								<option value="香港">香港</option>
+							</select>
+							
+
+							<!--优先实习时间-->
+							<div class="clearfix">
+								<!--开始时间-->
+								<div class="inputBox_edit width_11r left">
+									<span class="inputTitle2_edit">优先实习时间</span>
+									<input class="input2_edit" name="intern" value="{$data.intern}" />
+								</div>
+								<!--结束时间-->
+								<img class="arrow_edit" src="__IMG__/icon-arrow.png" />
+								<div class="inputBox_edit width_452r left">
+									<input class="input2_edit" name="enddate" value="{$data.enddate}" />
+								</div>
+							</div>
+							<!--自我描述-->
+							<div class="textareaBox_edit">
+								<textarea maxlength="40" name="desc" id="desc" placeholder="40字以内描述一下自己">{$data.desc}</textarea>
+								<span class="valueLength_edit"><span class="trueLength" id="result">0</span>/40</span>
+							</div>
+							<p class="tip_edit"></p>
+							<!--保存按钮-->
+							<button type="button" class="button-red saveInfo">保存信息</button>
+						</div>
+
+						<!--简历部分-->
+						<div class="resume myResume-block" style="display: none;">
+							<!--未上传-->
+							<?php if($data['resume'] == ''){ ?>
+							<div class="Upload_resume">
+								<img src="__IMG__/icon-UploadResume.png" />
+								<button type="button" class="button-red UploadResume_btn">上传我的简历</button>
+							</div>
+							<?php }else{ ?>
+							<!--已上传-->
+
+							<div class="Lookat_resume" style="display: block;">
+								<button class="button-resume margin_23467r LookatResume_btn"><span style="display:block;margin-left:40px;width:155px; white-space:nowrap;text-overflow:ellipsis;overflow:hidden;">{$data['pdfname']}</span></button>
+								<button type="button" class="button-red" onclick="window.location.href='/Home/Offer/upload'">重新上传简历</button>
+							</div>
+							<?php } ?>
+						</div>
+					</section>
+					</form>
+				</div>
+			</section>
+			<div class="popup" <?php if($data['is_check'] == 1){ ?> style="display:none" <?php } ?> >
+				<div class="bg_popup"></div>
+				<div class="box_popup box_popup_editInfo">
+					<p class="tiltle_code_popup">请输入官方验证码</p>
+					<div class="inputBox_code_popup"><input type="tel" name="password" maxlength="6" unselectable="off" /></div>
+					<button class="button-red login">登&nbsp;&nbsp;&nbsp;录</button>
+				</div>
+			</div>
+		</div>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Home/js/ajaxfileupload.js"></script>
+<script>
+	$(function(){
+        $('#result').html($("#desc").val().length); 
+
+		<?php  if($data['resume']){ ?>
+			$('.Lookat_resume').css('display','none');
+			$('.Upload_resume').css('display','none');
+			$('.tiptop').css('display','none');
+		<?php }else{
+		 $url = U("Offer/upload");
+		 ?>
+		$('.UploadResume_btn').click(function(){
+			window.location.href="{$url}";
+		});
+		<?php } ?>
+
+		$('.login').click(function(){
+			if($("input[name='password']").val().length == 6){
+				var code = $("input[name='password']").val();
+				var uid = '{$data[id]}';
+                //alert(uid);
+				$.post('{:U("Index/checkCode")}',{'code':code,'uid':uid},function (res) {
+					 //alert(res);return false;
+					 var data = $.parseJSON(res);
+					if(data.error == 0 ){
+						$('.popup').css('display','none');
+						//window.location.href="/";
+						return true;
+					}else{
+						alert(data.msg);
+						return false;
+					}
+				});
+
+			}
+		});
+		/**
+		 * editInfo_stu.html
+		 * 点击保存时进行验证
+		 *
+		 */
+		$('.saveInfo').click(function(){
+			var phoneReg = /^1[34578]\d{9}$/; //手机正则
+			if($("input[name='name']").val() == ''){
+				$('.tip_edit').html('请填写真实姓名');
+				return false;
+			}else if( !phoneReg.exec($("input[name='mobile']").val()) ){
+				$('.tip_edit').html('请填写正确手机号');
+				return false;
+			}else if($("input[name='grade']").val() == ''){
+				$('.tip_edit').html('请填写年级');
+				return false;
+			}else if($("input[name='school']").val() == ''){
+				$('.tip_edit').html('请填写学校');
+				return false;
+			}else if($("input[name='major']").val() == ''){
+				$('.tip_edit').html('请填写专业');
+				return false;
+			}else if($("input[name='intern']").val() == ''){
+				$('.tip_edit').html('请填写可开始实习时间截点');
+				return false;
+			}else if($("input[name='enddate']").val() == ''){
+				$('.tip_edit').html('请填写实习结束时间截点');
+				return false;
+			}else if($("select[name='address']").val() == ''){
+				$('.tip_edit').html('请选择想去的实习城市');
+				return false;
+			}else if($("textarea[name='desc']").val() == ''){
+				$('.tip_edit').html('请填写自我描述');
+				return false;
+			}else{
+				$('.tip_edit').html('');
+				//$(".form").submit();return false;
+				var json = $("form").serialize();
+				$.post('{:U("Index/user")}',{'obj':json},function (result) {
+					//alert(result);
+					var info = $.parseJSON(result);
+					if(info.error == 0){
+						window.location.href="{:U('Index/index')}";
+					}else{
+						alert(info.msg);
+						return ;
+					}
+				});
+			}
+		});
+		/**
+		 * editInfo_stu.html  home_stu.html
+		 * 顶部提示框的状态和内容的改变
+		 *
+		 */
+		$('.myInfo').click(function(){
+			$(this).addClass('checkedTab_header');
+			$('.myResume').removeClass('checkedTab_header');
+			$('.myInfo-block').css('display','block');
+			$('.myResume-block').css('display','none');
+			$('.tiptop').css('display','block');
+			//$('.tiptop table td').html('完善个人信息才能让企业看到你哦');
+		});
+		$('.myResume').click(function(){
+			$(this).addClass('checkedTab_header');
+			$('.myInfo').removeClass('checkedTab_header');
+			$('.myInfo-block').css('display','none');
+			$('.myResume-block').css('display','block');
+			if($('.Lookat_resume').css('display') == 'block'){
+				$('.tiptop').css('display','none');
+			}else{
+				$('.tiptop').css('display','block');
+				//$('.tiptop table td').html('上传简历后HR才能联系你哦');
+			}
+		});
+		// $('.UploadResume_btn').click(function(){
+		// 	$('.Lookat_resume').css('display','block');
+		// 	$('.Upload_resume').css('display','none');
+		// 	$('.tiptop').css('display','none');
+		// });
+		$('.LookatResume_btn').click(function(){
+			$('.Lookat_resume').css('display','none');
+			$('.Upload_resume').css('display','block');
+			$('.tiptop').css('display','block');
+			//$('.tiptop table td').html('上传简历后HR才能联系你哦');
+		});
+
+		$('#desc').bind('input propertychange', function() { 
+		    $('#result').html($(this).val().length);  
+	    });
+	
+	});
+
+	function upLoad(path,field)
+    {
+    	//var id = '{:I("get.id")}';
+    	var id =110;
+        var root = '__APP__';
+        $.ajaxFileUpload
+        ({
+            url: '{:U("Index/upload")}', //用于文件上传的服务器端请求地址
+            type: 'post',
+            data: { 'path':path,'field':field}, //此参数非常严谨，写错一个引号都不行
+            secureuri: false, //一般设置为false
+            fileElementId: field, //文件上传空间的id属性  <input type="file" id="file" name="file" />
+            dataType: 'content', //返回值类型 一般设置为json
+            success: function (data)  //服务器成功响应处理函数
+            {   
+                 if(data=='1'){
+                 	//alert('上传成功');
+                 	//$("#refrash").attr("src","");
+                 	//$("#refrash").attr("src","{$data['headimg']}");
+                 	location.reload();
+                 }else{
+                 	//alert(data);
+                 	alert('图片过大,上传失败');
+                 	
+                 	
+                 	
+                 }
+            }
+            // error: function (data, status, e)//服务器响应失败处理函数
+            // {
+            //    // alert(e);
+            // }
+        });//这是ajax1结束Tags
+        return false;
+    }
+
+</script>
+
+<include file="Public:footer" />

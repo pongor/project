@@ -1,7 +1,21 @@
 <include file="Public:header" />
 <div class="wrap">
     <!--导航栏-->
-<include file="Public:nav" />
+        <nav class="nav">
+            <div class="bg_nav"></div>
+            <a href="{:U('Personnel/index')}"><div class="tab2_nav">
+                <img class="imgPractice_nav" src="__IMG__/icon-talentChecked.png" />
+                <span class="textChecked_nav">人才</span>
+            </div></a>
+            <a href="{:U('Personnel/student')}"><div class="tab2_nav">
+                <img class="imgPractice_nav" src="__IMG__/icon-appraise.png" />
+                <span class="text_nav">实习评价</span>
+            </div></a>
+            <a href="{:U('Index/index')}"><div class="tab2_nav">
+                <div class="boxMy2_nav"><img class="imgMy_nav" src="{$selfimg}" /></div>
+                <span class="boxMytext_nav text_nav">我的</span>
+            </div></a>
+        </nav>
     <!--页面内容-->
     <section class="content">
         <div class="content_stuDet">
@@ -14,36 +28,42 @@
             <img class="collect_stuDet uncollect" id="uncollect_{$data.id}" src="<?php echo $r ? '__IMG__/btn-collect.png' : '__IMG__/btn-uncollect.png'; ?>" onclick="add({$data.id})" />
             <div class="head2_header">
                 <!--头像-->
-                <img class="imgHead_header" src="{$data.headimgurl}" />
+                <img class="imgHead_header" src="{$data['headimg']?$data['headimg']:$data['headimgurl']}" />
+                <?php if($nb){ ?>
+                <img class="enroll_studentCard" src="__IMG__/icon-enroll.png"/>
+                <?php } ?>
+            
             </div>
             <!--名字-->
             <span class="name_header">{$data.name}</span>
             <!--简介／描述-->
-            <p class="intro_header">{$data.desc}</p>
+            <p class="intro_header" style="text-align:center">{$data.desc}</p>
             <!--个人信息-->
-            <div class="information myInfo-block">
+            <div class="information myInfo-block"><!-- 
                 <img class="iconInfo" src="__IMG__/icon-info-phone.png" />
-                <p class="textInfo">{$data.mobile}</p>
+                <p class="textInfo">{$data.mobile}</p> -->
                 <img class="iconInfo" src="__IMG__/icon-info-grade.png" />
                 <p class="textInfo">{$data.grade}</p>
                 <img class="iconInfo" src="__IMG__/icon-info-college.png" />
                 <p class="textInfo">{$data.school}</p>
                 <img class="iconInfo" src="__IMG__/icon-info-major.png" />
                 <p class="textInfo">{$data.major}</p>
+                <?php if($data['address']){ ?>
+                <img class="iconInfo" src="__IMG__/icon-info-coordinates.png" />
+                <p class="textInfo">{$data.address}</p>
+                <?php }?>
+                <?php if($data['weektime']){ ?>
                 <img class="iconInfo" src="__IMG__/icon-info-time.png" />
-                <p class="textInfo noMargin">可实习时间 {$data.intern}-{$data.enddate}</p>
+                <p class="textInfo noMargin">每周可工作 : {$data.weektime}</p>
+                <?php }?>
             </div>
-            <a href="{$data.resume}"><button class="button-resume">{$data.name}的简历.PDF</button></a>
-            <?php
-               $model = D('Pushs');
-                $res = $model->getInfo(array('company_id' =>$id,'user_id' => $data['id']));
-            if(!$res){
-             ?>
-            <button class="button-red margin_btn2_stuDetErol">电话邀约面试</button>
-            <button class="button-white margin_btn3_stuDetErol wantToSendOffer">发送录用通知</button>
-            <?php }else{ ?>
-            <button class="button-white margin_btn3_stuDetErol">已发送录用通知</button>
-            <?php } ?>
+            <a href="{:U('Backend/Personnel/readPdf',array('uid'=>$data['id']))}"><button class="button-resume">{$data.name}的简历.PDF</button></a>
+            
+            <a href="tel:{$data.mobile}" style="display:<?php if(((!$nb)||($data['result']!='yifasong'))&&($data['result']!='weifasong')){echo 'none';}else{echo 'block';}?>"><button class="button-red margin_btn2_stuDetErol">电话联系面试</button></a>
+            <a style="display:<?php if((($nb)||($data['result']=='yifasong'))){echo 'none';}else{echo 'block';}?>"><button class="button-white margin_btn3_stuDetErol wantToSendOffer">发送录用通知</button></a>
+
+            <button class="button-white margin_btn3_stuDetErol" style="display:<?php if(($data['result']=='yifasong')&&(!$nb)){echo 'block';}else{echo 'none';}?>">已发送录用通知</button>
+            
 
         </div>
     </section>
@@ -56,14 +76,14 @@
             <p class="tipText text_popup_studet">您还没有填写个人信息</p>
             <p class="tipText text2_popup_studet">请填写个人信息后再发送录取通知</p>
             <!-- 接受 -->
-            <button class="button-red editInfoPlease" style="letter-spacing: 0;">确&nbsp;&nbsp;&nbsp;认</button>
+            <a href="{:U('Index/index')}"><button class="button-red editInfoPlease" style="letter-spacing: 0;">确&nbsp;&nbsp;&nbsp;认</button></a>
             <!-- 关闭弹出框 -->
             <img class="close_popup_offer closeOffer" src="__IMG__/btn-close.png" />
         </div>
         <!--发送录取通知弹出框-->
         <div class="box_popup box_popup_studet" style="display: none;">
             <img class="icon_popup_offer" src="__IMG__/icon-dialog.png" />
-            <p class="tipText text_popup_offer">请先面试该学生后在发送录取通知书</p>
+            <p class="tipText text_popup_offer">请先面试该学生,再发送录取通知</p>
             <!-- 接受 -->
             <button class="button-red sendOffer" style="letter-spacing: 0;">已经通过面试·发送录取通知</button>
             <!-- 关闭弹出框 -->
@@ -72,7 +92,7 @@
         <!--发送成功弹出框-->
         <div class="box_popup box3_popup_studet sendSuccess" style="display: none;">
             <img class="icon_popup_offer" src="__IMG__/icon-ok.png" />
-            <p class="tipText text_popup_studet">您已发送录取通知书！</p>
+            <p class="tipText text_popup_studet">您已发送录取通知！</p>
             <p class="tipText text3_popup_studet">请等待学生确认</p>
             <!-- 关闭弹出框 -->
             <img class="close_popup_offer closeOffer" src="__IMG__/btn-close.png" />
@@ -148,6 +168,10 @@
                 }
             });
         });
+
+        $(".closeOffer").click(function(){
+            window.location.href="__APP__";
+        })
 
     });
 </script>
