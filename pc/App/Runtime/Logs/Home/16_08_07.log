@@ -1,0 +1,10 @@
+[ 2016-08-07T11:19:03+08:00 ] 211.99.233.4 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-08-07T20:52:07+08:00 ] 183.6.135.35 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+

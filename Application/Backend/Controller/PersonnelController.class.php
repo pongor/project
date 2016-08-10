@@ -130,8 +130,8 @@ class PersonnelController extends AutuController
         $selfimg=M("Company")->where('id='.$this->user_id)->getField('headimgurl');
         $this->assign('selfimg',$selfimg);
         $this->assign('id',$this->user_id);
-        $weektime=$data['weektime'] ? '| 一周可工作 '.$data['weektime'] : '';
-        $image=$data['headimg'] ? $data['headimg'] :$data['headimgurl'] ;
+        $weektime=$data['weektime'] ? '｜一周可工作'.$data['weektime'] : '';
+        $image=$data['headimg'] ? 'http://123.57.250.189'.$data['headimg'] :$data['headimgurl'] ;
         //$this->assign('title','叶艳丽｜北京｜一周可工作五天');
         
         $this->assign('title',$data['name'].'｜'.$data['address'].$weektime);

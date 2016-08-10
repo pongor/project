@@ -1,0 +1,15 @@
+[ 2016-08-02T13:45:08+08:00 ] 101.80.30.42 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-08-02T16:29:06+08:00 ] 101.80.30.42 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-08-02T16:58:02+08:00 ] 101.80.30.42 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+

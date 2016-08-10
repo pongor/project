@@ -72,11 +72,11 @@ $(function(){
 	 * 禁止屏幕上下滑动
 	 *
 	 */
-//	if($('.popup').css('display') == 'block'){
-//		$('body, .content').on('touchmove', function (event) {
-//		    event.preventDefault();
-//		});		
-//	}
+	// if($('.popup').css('display') == 'block'){
+	// 	$('body, .content').on('touchmove', function (event) {
+	// 	    event.preventDefault();
+	// 	});		
+	// }
 	
 	/**
 	 * recordList.html

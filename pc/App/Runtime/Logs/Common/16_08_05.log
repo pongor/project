@@ -1,0 +1,18 @@
+[ 2016-08-05T21:55:25+08:00 ] 121.42.0.84 /admin.action?redirect%3A%25%7Bnew+java.lang.String%28%27http%3A%2F%2Fxxxxxxxxxxxxx%27%29%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-05T21:55:26+08:00 ] 121.42.0.84 /admin.action
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-05T21:55:38+08:00 ] 121.42.0.84 /index.php?m=Public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Public
+

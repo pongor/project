@@ -230,6 +230,7 @@
 					<p class="tiltle_code_popup">请输入官方验证码</p>
 					<div class="inputBox_code_popup"><input type="tel" name="password" maxlength="6" unselectable="off" /></div>
 					<button class="button-red login">登&nbsp;&nbsp;&nbsp;录</button>
+					<a href="http://form.mikecrm.com/WWT07V" style=" width: 50%; height: 2rem;padding-top: .7rem; margin-left: 25%; font-size: 0.7rem; text-align: center; display: block;">没有验证码？</a>
 				</div>
 			</div>
 			
